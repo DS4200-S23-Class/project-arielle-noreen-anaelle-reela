@@ -1,0 +1,253 @@
+﻿Occupation,Sex,Race,Disability Status,Value
+Social Scientist,Male,American Indian,With Disability,-1
+Social Scientist,Female,American Indian,With Disability,-1
+Social Scientist,Male,American Indian,Without Disability,-1
+Social Scientist,Female,American Indian,Without Disability,-1
+Social Scientist,Male,Asian,With Disability,1503.528768
+Social Scientist,Female,Asian,With Disability,1747.117227
+Social Scientist,Male,Asian,Without Disability,14222.56942
+Social Scientist,Female,Asian,Without Disability,16526.78458
+Social Scientist,Male,African American,With Disability,1459.307333
+Social Scientist,Female,African American,With Disability,1695.731426
+Social Scientist,Male,African American,Without Disability,13804.25856
+Social Scientist,Female,African American,Without Disability,16040.70268
+Social Scientist,Male,White,With Disability,11453.35149
+Social Scientist,Female,White,With Disability,13308.92241
+Social Scientist,Male,White,Without Disability,108342.5
+Social Scientist,Female,White,Without Disability,125895.2
+Social Scientist,Male,Native Hawaiian,With Disability,-1
+Social Scientist,Female,Native Hawaiian,With Disability,-1
+Social Scientist,Male,Native Hawaiian,Without Disability,-1
+Social Scientist,Female,Native Hawaiian,Without Disability,-1
+Social Scientist,Male,Latino,With Disability,2299.515
+Social Scientist,Female,Latino,With Disability,2672.062
+Social Scientist,Male,Latino,Without Disability,21752.17
+Social Scientist,Female,Latino,Without Disability,25276.26
+Social Scientist,Male,More Than One Race,With Disability,309.5
+Social Scientist,Female,More Than One Race,With Disability,359.7006
+Social Scientist,Male,More Than One Race,Without Disability,2928.176
+Social Scientist,Female,More Than One Race,Without Disability,3402.573
+Computer and Info Science,Male,American Indian,With Disability,-1
+Computer and Info Science,Female,American Indian,With Disability,-1
+Computer and Info Science,Male,American Indian,Without Disability,-1
+Computer and Info Science,Female,American Indian,Without Disability,-1
+Computer and Info Science,Male,Asian,With Disability,59739.82515
+Computer and Info Science,Female,Asian,With Disability,18921.07247
+Computer and Info Science,Male,Asian,Without Disability,61238.24981
+Computer and Info Science,Female,Asian,Without Disability,19395.66043
+Computer and Info Science,Male,African American,With Disability,12757.99656
+Computer and Info Science,Female,African American,With Disability,4040.771409
+Computer and Info Science,Male,African American,Without Disability,13077.99911
+Computer and Info Science,Female,African American,Without Disability,4142.124091
+Computer and Info Science,Male,White,With Disability,136152.7992
+Computer and Info Science,Female,White,With Disability,43122.94144
+Computer and Info Science,Male,White,Without Disability,139567.853
+Computer and Info Science,Female,White,Without Disability,44204.57297
+Computer and Info Science,Male,Native Hawaiian,With Disability,405.0157638
+Computer and Info Science,Female,Native Hawaiian,With Disability,128.2784574
+Computer and Info Science,Male,Native Hawaiian,Without Disability,415.174575
+Computer and Info Science,Female,Native Hawaiian,Without Disability,131.4960029
+Computer and Info Science,Male,Latino,With Disability,14445.56224
+Computer and Info Science,Female,Latino,With Disability,4575.264982
+Computer and Info Science,Male,Latino,Without Disability,14807.89317
+Computer and Info Science,Female,Latino,Without Disability,4690.024103
+Computer and Info Science,Male,More Than One Race,With Disability,5670.220693
+Computer and Info Science,Female,More Than One Race,With Disability,1795.898404
+Computer and Info Science,Male,More Than One Race,Without Disability,5812.44405
+Computer and Info Science,Female,More Than One Race,Without Disability,1840.944041
+Mathematical Scientist,Male,American Indian,With Disability,-2
+Mathematical Scientist,Female,American Indian,With Disability,-2
+Mathematical Scientist,Male,American Indian,Without Disability,-2
+Mathematical Scientist,Female,American Indian,Without Disability,-2
+Mathematical Scientist,Male,Asian,With Disability,2868.830925
+Mathematical Scientist,Female,Asian,With Disability,2117.470445
+Mathematical Scientist,Male,Asian,Without Disability,37405.14168
+Mathematical Scientist,Female,Asian,Without Disability,27608.55695
+Mathematical Scientist,Male,African American,With Disability,-1
+Mathematical Scientist,Female,African American,With Disability,-1
+Mathematical Scientist,Male,African American,Without Disability,-1
+Mathematical Scientist,Female,African American,Without Disability,-1
+Mathematical Scientist,Male,White,With Disability,9917.958341
+Mathematical Scientist,Female,White,With Disability,7320.397823
+Mathematical Scientist,Male,White,Without Disability,129314.9184
+Mathematical Scientist,Female,White,Without Disability,95446.72546
+Mathematical Scientist,Male,Native Hawaiian,With Disability,-2
+Mathematical Scientist,Female,Native Hawaiian,With Disability,-2
+Mathematical Scientist,Male,Native Hawaiian,Without Disability,-2
+Mathematical Scientist,Female,Native Hawaiian,Without Disability,-2
+Mathematical Scientist,Male,Latino,With Disability,983.5991743
+Mathematical Scientist,Female,Latino,With Disability,725.9898668
+Mathematical Scientist,Male,Latino,Without Disability,12824.62
+Mathematical Scientist,Female,Latino,Without Disability,9465.790955
+Mathematical Scientist,Male,More Than One Race,With Disability,163.9331957
+Mathematical Scientist,Female,More Than One Race,With Disability,120.9983111
+Mathematical Scientist,Male,More Than One Race,Without Disability,2137.436667
+Mathematical Scientist,Female,More Than One Race,Without Disability,1577.631826
+Physical Scientist,Male,American Indian,With Disability,73.42136883
+Physical Scientist,Female,American Indian,With Disability,39.04806882
+Physical Scientist,Male,American Indian,Without Disability,580.9864838
+Physical Scientist,Female,American Indian,Without Disability,308.9890663
+Physical Scientist,Male,Asian,With Disability,4038.175286
+Physical Scientist,Female,Asian,With Disability,2147.643785
+Physical Scientist,Male,Asian,Without Disability,31954.25661
+Physical Scientist,Female,Asian,Without Disability,16994.39865
+Physical Scientist,Male,African American,With Disability,1321.584639
+Physical Scientist,Female,African American,With Disability,702.8652387
+Physical Scientist,Male,African American,Without Disability,10457.75671
+Physical Scientist,Female,African American,Without Disability,5561.803193
+Physical Scientist,Male,White,With Disability,22026.41065
+Physical Scientist,Female,White,With Disability,11714.42065
+Physical Scientist,Male,White,Without Disability,174295.9451
+Physical Scientist,Female,White,Without Disability,92696.71989
+Physical Scientist,Male,Native Hawaiian,With Disability,-1
+Physical Scientist,Female,Native Hawaiian,With Disability,-1
+Physical Scientist,Male,Native Hawaiian,Without Disability,-1
+Physical Scientist,Female,Native Hawaiian,Without Disability,-1
+Physical Scientist,Male,Latino,With Disability,1982.376959
+Physical Scientist,Female,Latino,With Disability,1054.297858
+Physical Scientist,Male,Latino,Without Disability,15686.63506
+Physical Scientist,Female,Latino,Without Disability,8342.70479
+Physical Scientist,Male,More Than One Race,With Disability,513.9495818
+Physical Scientist,Female,More Than One Race,With Disability,273.3364817
+Physical Scientist,Male,More Than One Race,Without Disability,4066.905387
+Physical Scientist,Female,More Than One Race,Without Disability,2162.923464
+Psychologist,Male,American Indian,With Disability,9.924385633
+Psychologist,Female,American Indian,With Disability,38.98865784
+Psychologist,Male,American Indian,Without Disability,91.52488973
+Psychologist,Female,American Indian,Without Disability,359.5620668
+Psychologist,Male,Asian,With Disability,59.5463138
+Psychologist,Female,Asian,With Disability,233.9319471
+Psychologist,Male,Asian,Without Disability,549.1493384
+Psychologist,Female,Asian,Without Disability,2157.372401
+Psychologist,Male,African American,With Disability,-1
+Psychologist,Female,African American,With Disability,-1
+Psychologist,Male,African American,Without Disability,-1
+Psychologist,Female,African American,Without Disability,-1
+Psychologist,Male,White,With Disability,1548.204159
+Psychologist,Female,White,With Disability,6082.230624
+Psychologist,Male,White,Without Disability,14277.8828
+Psychologist,Female,White,Without Disability,56091.68242
+Psychologist,Male,Native Hawaiian,With Disability,-2
+Psychologist,Female,Native Hawaiian,With Disability,-2
+Psychologist,Male,Native Hawaiian,Without Disability,-2
+Psychologist,Female,Native Hawaiian,Without Disability,-2
+Psychologist,Male,Latino,With Disability,218.3364839
+Psychologist,Female,Latino,With Disability,857.7504726
+Psychologist,Male,Latino,Without Disability,2013.547574
+Psychologist,Female,Latino,Without Disability,7910.365469
+Psychologist,Male,More Than One Race,With Disability,39.69754253
+Psychologist,Female,More Than One Race,With Disability,155.9546314
+Psychologist,Male,More Than One Race,Without Disability,366.0995589
+Psychologist,Female,More Than One Race,Without Disability,1438.248267
+Computer Engineer,Male,American Indian,With Disability,-2
+Computer Engineer,Female,American Indian,With Disability,-2
+Computer Engineer,Male,American Indian,Without Disability,-2
+Computer Engineer,Female,American Indian,Without Disability,-2
+Computer Engineer,Male,Asian,With Disability,9086.742389
+Computer Engineer,Female,Asian,With Disability,1058.888679
+Computer Engineer,Male,Asian,Without Disability,89432.67509
+Computer Engineer,Female,Asian,Without Disability,10421.69384
+Computer Engineer,Male,African American,With Disability,1817.348478
+Computer Engineer,Female,African American,With Disability,211.7777359
+Computer Engineer,Male,African American,Without Disability,17886.53502
+Computer Engineer,Female,African American,Without Disability,2084.338769
+Computer Engineer,Male,White,With Disability,19577.79951
+Computer Engineer,Female,White,With Disability,2281.423791
+Computer Engineer,Male,White,Without Disability,192686.7636
+Computer Engineer,Female,White,Without Disability,22454.0131
+Computer Engineer,Male,Native Hawaiian,With Disability,-1
+Computer Engineer,Female,Native Hawaiian,With Disability,-1
+Computer Engineer,Male,Native Hawaiian,Without Disability,-1
+Computer Engineer,Female,Native Hawaiian,Without Disability,-1
+Computer Engineer,Male,Latino,With Disability,2478.20247
+Computer Engineer,Female,Latino,With Disability,288.7878217
+Computer Engineer,Male,Latino,Without Disability,24390.72957
+Computer Engineer,Female,Latino,Without Disability,2842.28014
+Computer Engineer,Male,More Than One Race,With Disability,578.2472429
+Computer Engineer,Female,More Than One Race,With Disability,67.38382505
+Computer Engineer,Male,More Than One Race,Without Disability,5691.170233
+Computer Engineer,Female,More Than One Race,Without Disability,663.1986992
+Mechanical Engineer,Male,American Indian,With Disability,-2
+Mechanical Engineer,Female,American Indian,With Disability,-2
+Mechanical Engineer,Male,American Indian,Without Disability,-2
+Mechanical Engineer,Female,American Indian,Without Disability,-2
+Mechanical Engineer,Male,Asian,With Disability,3932.343
+Mechanical Engineer,Female,Asian,With Disability,353.341
+Mechanical Engineer,Male,Asian,Without Disability,50974.82
+Mechanical Engineer,Female,Asian,Without Disability,4580.346
+Mechanical Engineer,Male,African American,With Disability,524.3124
+Mechanical Engineer,Female,African American,With Disability,47.11213
+Mechanical Engineer,Male,African American,Without Disability,6796.642
+Mechanical Engineer,Female,African American,Without Disability,610.7128
+Mechanical Engineer,Male,White,With Disability,17892.16
+Mechanical Engineer,Female,White,With Disability,1607.701
+Mechanical Engineer,Male,White,Without Disability,231935.4
+Mechanical Engineer,Female,White,Without Disability,20840.57
+Mechanical Engineer,Male,Native Hawaiian,With Disability,-2
+Mechanical Engineer,Female,Native Hawaiian,With Disability,-2
+Mechanical Engineer,Male,Native Hawaiian,Without Disability,-2
+Mechanical Engineer,Female,Native Hawaiian,Without Disability,-2
+Mechanical Engineer,Male,Latino,With Disability,1835.093
+Mechanical Engineer,Female,Latino,With Disability,164.8925
+Mechanical Engineer,Male,Latino,Without Disability,23788.25
+Mechanical Engineer,Female,Latino,Without Disability,2137.495
+Mechanical Engineer,Male,More Than One Race,With Disability,393.2343
+Mechanical Engineer,Female,More Than One Race,With Disability,35.3341
+Mechanical Engineer,Male,More Than One Race,Without Disability,5097.482
+Mechanical Engineer,Female,More Than One Race,Without Disability,458.0346
+Civil Engineer,Male,American Indian,With Disability,-2
+Civil Engineer,Female,American Indian,With Disability,-2
+Civil Engineer,Male,American Indian,Without Disability,-2
+Civil Engineer,Female,American Indian,Without Disability,-2
+Civil Engineer,Male,Asian,With Disability,3083.9
+Civil Engineer,Female,Asian,With Disability,725.6236
+Civil Engineer,Male,Asian,Without Disability,29407.19
+Civil Engineer,Female,Asian,Without Disability,6919.339
+Civil Engineer,Male,African American,With Disability,925.1701
+Civil Engineer,Female,African American,With Disability,217.6871
+Civil Engineer,Male,African American,Without Disability,8822.157
+Civil Engineer,Female,African American,Without Disability,2075.802
+Civil Engineer,Male,White,With Disability,16036.28
+Civil Engineer,Female,White,With Disability,3773.243
+Civil Engineer,Male,White,Without Disability,152917.4
+Civil Engineer,Female,White,Without Disability,359080.56
+Civil Engineer,Male,Native Hawaiian,With Disability,-2
+Civil Engineer,Female,Native Hawaiian,With Disability,-2
+Civil Engineer,Male,Native Hawaiian,Without Disability,-2
+Civil Engineer,Female,Native Hawaiian,Without Disability,-2
+Civil Engineer,Male,Latino,With Disability,2312.925
+Civil Engineer,Female,Latino,With Disability,544.2177
+Civil Engineer,Male,Latino,Without Disability,22055.39
+Civil Engineer,Female,Latino,Without Disability,5189.504
+Civil Engineer,Male,More Than One Race,With Disability,231.2925
+Civil Engineer,Female,More Than One Race,With Disability,54.42177
+Civil Engineer,Male,More Than One Race,Without Disability,2205.539
+Civil Engineer,Female,More Than One Race,Without Disability,518.9504
+Industrial Engineer,Male,American Indian,With Disability,-2
+Industrial Engineer,Female,American Indian,With Disability,-2
+Industrial Engineer,Male,American Indian,Without Disability,-2
+Industrial Engineer,Female,American Indian,Without Disability,-2
+Industrial Engineer,Male,Asian,With Disability,1296.842
+Industrial Engineer,Female,Asian,With Disability,324.2105
+Industrial Engineer,Male,Asian,Without Disability,7503.158
+Industrial Engineer,Female,Asian,Without Disability,1875.789
+Industrial Engineer,Male,African American,With Disability,589.4737
+Industrial Engineer,Female,African American,With Disability,147.3684
+Industrial Engineer,Male,African American,Without Disability,3410.526
+Industrial Engineer,Female,African American,Without Disability,852.6316
+Industrial Engineer,Male,White,With Disability,7545.263
+Industrial Engineer,Female,White,With Disability,1886.316
+Industrial Engineer,Male,White,Without Disability,43654.74
+Industrial Engineer,Female,White,Without Disability,10913.68
+Industrial Engineer,Male,Native Hawaiian,With Disability,-2
+Industrial Engineer,Female,Native Hawaiian,With Disability,-2
+Industrial Engineer,Male,Native Hawaiian,Without Disability,-2
+Industrial Engineer,Female,Native Hawaiian,Without Disability,-2
+Industrial Engineer,Male,Latino,With Disability,1532.632
+Industrial Engineer,Female,Latino,With Disability,383.1579
+Industrial Engineer,Male,Latino,Without Disability,8867.368
+Industrial Engineer,Female,Latino,Without Disability,2216.842
+Industrial Engineer,Male,More Than One Race,With Disability,117.8947
+Industrial Engineer,Female,More Than One Race,With Disability,29.47368
+Industrial Engineer,Male,More Than One Race,Without Disability,682.1053
+Industrial Engineer,Female,More Than One Race,Without Disability,170.5263
