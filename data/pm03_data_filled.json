@@ -1,0 +1,1233 @@
+{
+  "name": "Gender",
+  "children": [
+    {
+      "name": "Female",
+      "children": [
+        {
+          "name": "African American",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 1695.731426
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 4040.771409
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 702.8652387
+                },
+                {
+                  "name": "Psychologist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 211.7777359
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 47.11213
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 217.6871
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 147.3684
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 16040.70268
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 4142.124091
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 5561.803193
+                },
+                {
+                  "name": "Psychologist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 2084.338769
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 610.7128
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 2075.802
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 852.6316
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "American Indian",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 39.04806882
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 38.98865784
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": -2.0
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 308.9890663
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 359.5620668
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": -2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Asian",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 1747.117227
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 18921.07247
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 2117.470445
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 2147.643785
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 233.9319471
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 1058.888679
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 353.341
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 725.6236
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 324.2105
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 16526.78458
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 19395.66043
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 27608.55695
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 16994.39865
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 2157.372401
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 10421.69384
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 4580.346
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 6919.339
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 1875.789
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Latino",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 2672.062
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 4575.264982
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 725.9898668
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 1054.297858
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 857.7504726
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 288.7878217
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 164.8925
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 544.2177
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 383.1579
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 25276.26
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 4690.024103
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 9465.790955
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 8342.70479
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 7910.365469
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 2842.28014
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 2137.495
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 5189.504
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 2216.842
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "More Than One Race",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 359.7006
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 1795.898404
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 120.9983111
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 273.3364817
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 155.9546314
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 67.38382505
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 35.3341
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 54.42177
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 29.47368
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 3402.573
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 1840.944041
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 1577.631826
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 2162.923464
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 1438.248267
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 663.1986992
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 458.0346
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 518.9504
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 170.5263
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Native Hawaiian",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 128.2784574
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Psychologist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": -1.0
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": -2.0
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 131.4960029
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Psychologist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": -1.0
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": -2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "White",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 13308.92241
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 43122.94144
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 7320.397823
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 11714.42065
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 6082.230624
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 2281.423791
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 1607.701
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 3773.243
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 1886.316
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 125895.2
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 44204.57297
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 95446.72546
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 92696.71989
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 56091.68242
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 22454.0131
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 20840.57
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 359080.56
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 10913.68
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Male",
+      "children": [
+        {
+          "name": "African American",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 1459.307333
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 12757.99656
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 1321.584639
+                },
+                {
+                  "name": "Psychologist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 1817.348478
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 524.3124
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 925.1701
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 589.4737
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 13804.25856
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 13077.99911
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 10457.75671
+                },
+                {
+                  "name": "Psychologist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 17886.53502
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 6796.642
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 8822.157
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 3410.526
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "American Indian",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 73.42136883
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 9.924385633
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": -2.0
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 580.9864838
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 91.52488973
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": -2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Asian",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 1503.528768
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 59739.82515
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 2868.830925
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 4038.175286
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 59.5463138
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 9086.742389
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 3932.343
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 3083.9
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 1296.842
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 14222.56942
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 61238.24981
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 37405.14168
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 31954.25661
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 549.1493384
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 89432.67509
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 50974.82
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 29407.19
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 7503.158
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Latino",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 2299.515
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 14445.56224
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 983.5991743
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 1982.376959
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 218.3364839
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 2478.20247
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 1835.093
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 2312.925
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 1532.632
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 21752.17
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 14807.89317
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 12824.62
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 15686.63506
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 2013.547574
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 24390.72957
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 23788.25
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 22055.39
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 8867.368
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "More Than One Race",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 309.5
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 5670.220693
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 163.9331957
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 513.9495818
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 39.69754253
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 578.2472429
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 393.2343
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 231.2925
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 117.8947
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 2928.176
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 5812.44405
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 2137.436667
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 4066.905387
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 366.0995589
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 5691.170233
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 5097.482
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 2205.539
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 682.1053
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Native Hawaiian",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 405.0157638
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Psychologist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": -1.0
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": -2.0
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 415.174575
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": -1.0
+                },
+                {
+                  "name": "Psychologist",
+                  "value": -2.0
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": -1.0
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": -2.0
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": -2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "White",
+          "children": [
+            {
+              "name": "With Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 11453.35149
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 136152.7992
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 9917.958341
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 22026.41065
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 1548.204159
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 19577.79951
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 17892.16
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 16036.28
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 7545.263
+                }
+              ]
+            },
+            {
+              "name": "Without Disability",
+              "children": [
+                {
+                  "name": "Social Scientist",
+                  "value": 108342.5
+                },
+                {
+                  "name": "Computer and Information Scientist",
+                  "value": 139567.853
+                },
+                {
+                  "name": "Mathematical Scientist",
+                  "value": 129314.9184
+                },
+                {
+                  "name": "Physical Scientist",
+                  "value": 174295.9451
+                },
+                {
+                  "name": "Psychologist",
+                  "value": 14277.8828
+                },
+                {
+                  "name": "Computer Engineer",
+                  "value": 192686.7636
+                },
+                {
+                  "name": "Mechanical Engineer",
+                  "value": 231935.4
+                },
+                {
+                  "name": "Civil Engineer",
+                  "value": 152917.4
+                },
+                {
+                  "name": "Industrial Engineer",
+                  "value": 43654.74
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
