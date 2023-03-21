@@ -6,6 +6,12 @@ h1 {
     text-align: center;
 }
 
+p.indented {
+    text-indent: 30px;
+}
+p.shifted {
+    margin-left: 30px;
+}
 
 #backButton {
 	border-radius: 4px;
