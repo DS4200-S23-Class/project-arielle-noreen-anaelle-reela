@@ -92,10 +92,9 @@
 
     <div>
         <h2>Background</h2>
-        TODO:(*DELETE AFTER PROOFREAD*) Add link to report, demo video, link to data etc. here
+        TODO: Add link to report, demo video, link to data etc. here
          (Add a subsection titled Data. In this section, discuss (at a high-level) what data your
-        tool visualizes, the source of the data, biases and ethical issues embedded in the data, and any data
-        quality issues you found. Add a link to the raw data.)  
+        tool visualizes, Add a link to the raw data.)  
         <p class="indented">
             <!-- TODO: Link Reports??? I think this section is for Related Works -->
         </p>
@@ -148,7 +147,9 @@
                 in their access to these things than there would be in the general
                 population.
             </p>
-            Here is our raw data: ADD LINK HERE
+            The raw data can be found here: <a href = "https://ncses.nsf.gov/pubs/nsf21321/data-tables"> Data Tables</a>
+            The tables used were table 9-5 Employed scientists and engineers, by occupation, highest degree level, and sex: 2019, 9-6 Employed scientists and engineers, by highest degree level, occupation, ethnicity, and race: 2019,
+             and 9-8 Employed scientists and engineers, by occupation, highest degree level, and disability status: 2019.
             <p class = "indented">
                 <h4>Data Cleaning</h4>
                 (TODO ** DESCRIBE DATA CLEANING, DECIDE WITH GROUP HOW MUCH TO INCLUDE**)
@@ -158,8 +159,12 @@
                 Most of the raw data were in tables, broken down into degree type and occupation by sex, race, and disability status.
                 We chose to look at the aggregates of all post-secondary degrees as well. The data was presented as hierarchal tables not suitable
                 for data processing. We decided on a structure of a data table that would include the counts of each demographical combination within a 
-                occupation and used the data tables of our sources to populate our table. We then converted the table to a json structure to 
-                to support our visualization. 
+                occupation and used the data tables of our sources to populate our table. For example, a row in our final data table 
+                had several columns representing Sex, Occupation, Race, and Disability status, and then based on the three tables shown above,
+                we performed calculations to get the approximate number of individuals in the study that had that combination of traits (ex: 
+                Female, Asian, With Disability, Social Scientist would produce approximately 1747.117227 individuals).
+                We then converted the information from our Excel data table to a JSON structure to 
+                to support our visualization.
             </p>
             <p class="indented">
                 <h4>Visualization</h4>
