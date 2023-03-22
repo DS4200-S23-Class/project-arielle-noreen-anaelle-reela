@@ -4,7 +4,7 @@
 <head>
     <meta charset=utf-8/>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="js/d3.v6.1.1/d3.min.js"></script>
+    <script src="/canvasjs-3.7.5/canvasjs.min.js"></script>
     <title>TODO: Add short title here</title>
 </head>
 
@@ -19,13 +19,13 @@
         project addresses, the domain problem it seeks to solve, why solving this problem is important, and
         an overview of the use case for your tool.)
         <p class="indented">
-            The under-representation of minorities in the STEM field is a persistent issue that requires attention and innovative solutions. This
+            The under-representation of minorities in STEM-related field is a persistent issue that requires attention and innovative solutions. This
             lack of diversity and inclusion hinders innovation, competitiveness,
             and social equity. Our interactive visualization aims to address
             this problem by providing a tool that empowers individuals from
-            different backgrounds to explore identify, and ultimately address
-            the metrics of employed and unemployed individuals in the STEM
-            field. 
+            different backgrounds to explore, identify, and ultimately address
+            the disproportionate representation of different demographics in STEM-related
+            fields. 
         </p> 
         <p class="indented">
             Supporting numerous domain tasks such as demographic analysis is critical for promoting
@@ -39,44 +39,35 @@
             the user’s demographic. 
         </p>
         <p class="indented">
-            Our visualization aims to create an unfiltered and accurate image of the employment situation in the STEM
+            Our visualization aims to create an unbiased and accurate image of the employment situation in the STEM
             field for the user’s demographic group of interest, taking into account
-            the specific state in which they are located. By providing data on the
-            actual number of employed individuals, our visualization enables
-            users to gain a comprehensive understanding of the employment
-            situation in their region. This allows them to make informed decisions and advocate for policies that address the under-representation
-            of minorities in STEM fields in their state.
+            their sex, race/ethnic identity, and disability status. Our method of visualizing employement data in STEM-related 
+            fields enables users to gain a comprehensive understanding of the employment
+            situation in their demographic group of interest in the United States. This allows them to make informed decisions and advocate for
+             policies that address the under-representation
+            of minorities in STEM fields in the United States.
         </p>
         <p>
             An example use case for our visualization project is as follows: 
             <br>
             <p class = 'shifted'>
                 TODO **PROOFREAD TO MAKE SURE USE CASE IS UP TO DATE**
-                A recruiter for a tech company in California is looking to improve
+                A recruiter (she/her) for a tech company in California is looking to improve
                 diversity and inclusion efforts in the company and wants to gain
                 a better understanding of the employment situation for minority
-                groups in the STEM field in California. The recruiter accesses our
-                interactive visualization and selects the ”state” filter, choosing ”California” as the state of interest. Next, they select the ”gender” filter
-                and choose ”female”. The visualization updates to show the employment situation for female individuals in the STEM field in California.
-                The recruiter sees that the number of employed female individuals
-                in the STEM field in California is lower than expected, and the
-                unemployment rate is higher than the state average. They then select
-                the ”age” filter and choose ”25-34 years old”. The visualization
-                updates to show the employment situation for female individuals in
-                the STEM field in California in this age group. The recruiter sees
-                that the employment situation is even worse for this age group, with
-                a higher unemployment rate and lower median salary. They then
-                select the ”race” filter and choose ”Black or African American”. The
-                visualization updates to show the employment situation for Black
-                or African American females in the STEM field in California in the
-                25-34 age group. The recruiter sees that the employment situation
-                for Black or African American females in the STEM field in California in this age group is particularly challenging, with a significantly
-                lower number of employed individuals. Based on the insights gained
-                from the visualization, the recruiter can make informed decisions
+                groups in the STEM field in California. The recruiter accessing our
+                interactive visualization begins with the first chart. This chart shows the male/female distribution of people in STEM-related fields within each race/ethnic group.
+                The recruiter is very interested to see that in all the race/ethnic groups, males are far more represented. 
+                She is also interested to see that Native Hawaiian's have quite low employement counts in the STEM-field comapred to the other race/ethnic groups.
+                She continues to explore,clicking on the "female" bar of the Native-Hawaiian group.
+                The recruiter is brought to another chart, showing employement metrics across different STEM jobs for only Native Hawaiian women.
+                She is excited to see that her field, Social Scientist, is listed as a bar, so she hovers over it, and is disappointed to see that the representation of 
+                non-disabled individuals is far higher than that of disabled individuals. She does some comparison between her field and the other fields listed. 
+                Based on the insights gained from the visualization, the recruiter can make informed decisions
                 and advocate for policies that address the under-representation of
-                minority groups in the STEM field in California. By using the visualization to identify areas where additional resources and support are
+                minority groups, such as Native-Hawaiian disabled women in this example, in her field. By using the visualization to identify areas where additional resources and support are
                 needed, the recruiter can create policies that will help create a more
-                diverse and inclusive workforce in the STEM field in California.
+                diverse and inclusive workforce in the STEM field.
             </p>
            
         </p>
@@ -149,7 +140,7 @@
                 We chose to look at the aggregates of all post-secondary degrees as well. Then, the values were loaded into a CSV...
             </p>
             <p class="indented">
-                Our data visualization represents a breakdown of the raw data grouped by sex, race, disabilit
+                Our data visualization represents a breakdown of the raw data grouped by sex, race, disability
                 status, and the occupation of each person surveyed. The initial phase of the visualization
                 shows the breakdown of total participants by their sex. Then, once a user clicks on the sex
                 breakdown they wish to view, the graph will shift to a new bargraph of the counts of people of each
@@ -170,13 +161,17 @@
     <div id="chartContainer" style="height: 370px; width: 100%;"></div>
     <button class="btn invisible" id="backButton">&lt; Back</button>
     
-    
+
     <div>
         <h2>Acknowledgements</h2>
-        TODO: Cite resources used here   
+        <li><a href="https://jsfiddle.net/canvasjs/1f3Lwr56/">visualization help</a></li>
+        <li><a href="https://coder-coder.com/how-to-indent-paragraph-text-in-html-css/">Indent Paragraphs help</a></li> 
+        <li><a href="https://sparkbyexamples.com/pandas/pandas-groupby-multiple-columns/">Group by Multiple Columns</a></li> 
+        <li><a href="https://www.w3schools.com/jsref/jsref_foreach.asp">Logging Data in console help</a></li> 
     </div>
 
 <script src="main.js"></script>
+
 </body>
 
 </html>
