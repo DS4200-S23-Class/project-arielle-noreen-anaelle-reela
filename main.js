@@ -163,21 +163,12 @@ var data = {
     chart.render();
   }
   
-  // log data points in the console with disability
-  const africanAmericanDataPointsD = data.african_american[0].dataPoints;
 
-africanAmericanDataPointsD.forEach(dataPoint => {
-  console.log(`Label: ${dataPoint.label}`);
-  console.log(`Value: ${dataPoint.y}`);
-  console.log("----------------------");
+  console.log("Printed CSV, expand to Promise Result")
+  d3.csv("/data/pm03_data.csv").then((data) => {
+    console.log(data);
+  });
+ console.log("Printed JSON Data");
+ d3.json("/data/pm03_data_filled.json").then(function(dataset) {
+  console.log(dataset);
 });
-
-// log data points in the console without disability
-const africanAmericanDataPointsWD = data.african_american[1].dataPoints;
-
-africanAmericanDataPointsWD.forEach(dataPoint => {
-  console.log(`Label: ${dataPoint.label}`);
-  console.log(`Value: ${dataPoint.y}`);
-  console.log("----------------------");
-});
-
