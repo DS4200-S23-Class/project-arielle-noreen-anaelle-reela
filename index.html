@@ -24,9 +24,8 @@
             lack of diversity and inclusion hinders innovation, competitiveness,
             and social equity. Our interactive visualization aims to address
             this problem by providing a tool that empowers individuals from
-            different backgrounds to explore identify, and ultimately address
-            the metrics of employed and unemployed individuals in the STEM
-            field. 
+            different backgrounds to explore, identify, and ultimately address
+            the demographics of employed individuals in the STEM field. 
         </p> 
         <p class="indented">
             Supporting numerous domain tasks such as demographic analysis is critical for promoting
@@ -37,7 +36,8 @@
             supported by our visualization are skill mapping and demographic
             analysis. The visualization can be personalized based on the user’s
             input to provide a comprehensive view of the metrics specific to
-            the user’s demographic. 
+            the user’s demographic. The user can also then make educated decisions about entering their desired field 
+            and know the level of diversity to expect.
         </p>
         <p class="indented">
             Our visualization aims to create an unfiltered and accurate image of the employment situation in the STEM
@@ -79,6 +79,13 @@
                 minority groups in the STEM field in California. By using the visualization to identify areas where additional resources and support are
                 needed, the recruiter can create policies that will help create a more
                 diverse and inclusive workforce in the STEM field in California.
+
+
+                ** Alternate Use Case w/o States**
+                A recruiter for a tech company is hoping to improve diversity and inclusion efforts with their hiring practices. In order to gain
+                a better understanding of the employment situation for minority groups in the STEM field the recruiter accesses our interactive visualization. 
+                The recruiter is first presented the counts of 
+
             </p>
            
         </p>
@@ -150,11 +157,14 @@
                 to get it into a form that we could use for our visualization. We chose to narrow down the list
                 of occupations we would look at in order to make the visualization clearer, more readable, as well as more feasible to produce. 
                 Most of the raw data were in tables, broken down into degree type and occupation by sex, race, and disability status.
-                We chose to look at the aggregates of all post-secondary degrees as well. Then, the values were loaded into a CSV...
+                We chose to look at the aggregates of all post-secondary degrees as well. The data was presented as hierarchal tables not suitable
+                for data processing. We decided on a structure of a data table that would include the counts of each demographical combination within a 
+                occupation and used the data tables of our sources to populate our table. We then converted the table to a json structure to 
+                to support our visualization. 
             </p>
             <p class="indented">
                 <h4>Visualization</h4>
-                Our data visualization represents a breakdown of the raw data grouped by sex, race, disabilit
+                Our data visualization represents a breakdown of the raw data grouped by sex, race, disability
                 status, and the occupation of each person surveyed. The initial phase of the visualization
                 shows the breakdown of total participants by their sex. Then, once a user clicks on the sex
                 breakdown they wish to view, the graph will shift to a new bargraph of the counts of people of each
@@ -166,6 +176,11 @@
                 if a user clicks on the bars labelled "Female," then "Asian," and then "With Disability," the fully drilled-down
                 bar graph displayed will represent the number of Asian Women With Disabilities in the study for each of the 
                 tech-related jobs selected from the study.
+
+                **Needs to change cuz this is from memory**
+
+                The initial phase of the visualization shows the breakdown of race by sex. Upon clicking the bar representing the user's
+                race and sex, the visualization shows the disibility status counts of their race and sex by occupation.
 
             </p>
         </div>
