@@ -83,15 +83,15 @@
 
     <div>
         <h2>Background</h2>
-        TODO: Add link to report, demo video, link to data etc. here
+        <!-- TODO: Add link to report, demo video, link to data etc. here
          (Add a subsection titled Data. In this section, discuss (at a high-level) what data your
-        tool visualizes, Add a link to the raw data.)  
+        tool visualizes, Add a link to the raw data.)   -->
         <p class="indented">
             <!-- TODO: Link Reports??? I think this section is for Related Works -->
         </p>
         <div class = 'demo_vid'>
             <p class="indented">
-                For a demonstration of our visualization tool, please watch the video below.
+                <!-- For a demonstration of our visualization tool, please watch the video below. -->
                 <br>
             </p>
         </div>
@@ -139,11 +139,11 @@
                 population.
             </p>
             The raw data can be found here: <a href = "https://ncses.nsf.gov/pubs/nsf21321/data-tables"> Data Tables</a>
+            <br>
             The tables used were table 9-5 Employed scientists and engineers, by occupation, highest degree level, and sex: 2019, 9-6 Employed scientists and engineers, by highest degree level, occupation, ethnicity, and race: 2019,
              and 9-8 Employed scientists and engineers, by occupation, highest degree level, and disability status: 2019.
+            <h4>Data Cleaning</h4>
             <p class = "indented">
-                <h4>Data Cleaning</h4>
-                (TODO ** DESCRIBE DATA CLEANING, DECIDE WITH GROUP HOW MUCH TO INCLUDE**)
                 Since the raw data was also broken up by various demographics, we had to perform extensive data cleaning
                 to get it into a form that we could use for our visualization. We chose to narrow down the list
                 of occupations we would look at in order to make the visualization clearer, more readable, as well as more feasible to produce. 
@@ -157,13 +157,14 @@
                 We then converted the information from our Excel data table to a JSON structure to 
                 to support our visualization.
             </p>
+            
+            <h4>High-Level Visualization Description</h4>
             <p class="indented">
-                <h4>Visualization</h4>
-                The initial phase of the visualization shows the breakdown of people in STEM related fields within each race/ethnic group by their sex, male or female. 
+                The initial phase of the visualization shows the breakdown of people in STEM related fields for each race/ethnic group by their sex, male or female. 
                 Upon clicking the bar representing the sex-group for the race the user wants to view, the visualization will shift,
-                now showing the employment metrics for people of the chosen race and sex, now broken down into their respective disibility status counts for each STEM-field occupation.
+                now showing the employment metrics for people of the chosen race and sex, broken down into their respective disibility status counts for each STEM-field occupation.
                 Thus, this final bar graph represents the counts of individuals in each occupation with the selected race and sex, comparing the number of those with disabilites,
-                 and those without.
+                and those without.
 
             </p>
         </div>
@@ -173,7 +174,7 @@
     <div id="chartContainer" style="height: 370px; width: 100%;"></div>
     <button class="btn invisible" id="backButton">&lt; Back</button>
     
-
+    <h2>Visualization Tool</h2>
     <div>
         <h2>Acknowledgements</h2>
         <li><a href="https://jsfiddle.net/canvasjs/1f3Lwr56/">visualization help</a></li>
