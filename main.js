@@ -164,11 +164,26 @@ var data = {
   }
   
 
-  console.log("Printed CSV, expand to Promise Result")
+
+  // var data = d3.csvParse(d3.select("#csv").text(), row);
+
+  // function row(d, i) {
+  //   if (i < 5) return d;
+  // }
+
+// console.log("data is " + JSON.stringify(data));
+
   d3.csv("/data/pm03_data.csv").then((data) => {
-    console.log(data);
+    console.log("PRINT 10 ROWS FROM CSV")
+    for(i = 0; i<11; i++){
+      console.log(data[i])
+    }
+    // console.log(data[10]);
   });
- console.log("Printed JSON Data");
+ 
+
+ 
  d3.json("/data/pm03_data_filled.json").then(function(dataset) {
+  console.log("PRINTED JSON DATA");
   console.log(dataset);
 });
