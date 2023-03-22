@@ -64,43 +64,10 @@ var data = {
           { label: "Industrial Engineer", y: 852.6316 }
         ]
       }
-    ],
-  
-    "african_american_male": [
-      {
-        click: raceDrillDownHandler,
-        cursor: "pointer",
-        name: "With Disability",
-        type: "column",
-        dataPoints: [
-          { label: "Social Scientist", y: 1459.307333 },
-          { label: "Computer and Information Scientist", y: 12757.99656 },
-          { label: "Mathematical Scientist", y: -1 },
-          { label: "Physical Scientist", y: 1321.584639 },
-          { label: "Psychologist", y: -1 },
-          { label: "Computer Engineer", y: 1817.348478 },
-          { label: "Mechanical Engineer", y: 524.3124 },
-          { label: "Civil Engineer", y: 925.1701 },
-          { label: "Industrial Engineer", y: 589.4737 }
-        ]
-      },
-      {
-        click: raceDrillDownHandler,
-        cursor: "pointer",
-        name: "Without Disability",
-        type: "column",
-        dataPoints: [
-          { label: "Social Scientist", y:  13804.25856 },
-          { label: "Computer and Information Scientist", y: 13077.999116 },
-          { label: "Mathematical Scientist", y: -1 },
-          { label: "Physical Scientist", y: 10457.75671 },
-          { label: "Psychologist", y: -1 },
-          { label: "Computer Engineer", y: 17886.53502},
-          { label: "Mechanical Engineer", y: 6796.642},
-          { label: "Civil Engineer", y:  8822.157},
-          { label: "Industrial Engineer", y:3410.526 }
-        ]
-      }]};
+    
+    ]
+  };
+
 
       var chart = new CanvasJS.Chart("chartContainer", {
         title:{
@@ -111,7 +78,7 @@ var data = {
           title: "Count",
         },
         axisX: {
-          title: "Occupation"
+          title: "Race/Ethnic Group by Sex"
         },
         data: data["Gender"],
         toolTip: {
@@ -138,7 +105,7 @@ var data = {
         title: "Count"
       },
       axisX: {
-        title: "Occupation"
+        title: "Occupation by Disability Status"
       },
       data: data[e.dataPoint.drilldown],
       toolTip: {
@@ -167,7 +134,7 @@ var data = {
         title: "Count"
       },
       axisX: {
-        title: "Race/Ethnic Groups by Sex "
+        title: "Occupation by Disability Status "
       },
       data: data[e.dataPoint.drilldown],
       toolTip: {
@@ -196,3 +163,21 @@ var data = {
     chart.render();
   }
   
+  // log data points in the console with disability
+  const africanAmericanDataPointsD = data.african_american[0].dataPoints;
+
+africanAmericanDataPointsD.forEach(dataPoint => {
+  console.log(`Label: ${dataPoint.label}`);
+  console.log(`Value: ${dataPoint.y}`);
+  console.log("----------------------");
+});
+
+// log data points in the console without disability
+const africanAmericanDataPointsWD = data.african_american[1].dataPoints;
+
+africanAmericanDataPointsWD.forEach(dataPoint => {
+  console.log(`Label: ${dataPoint.label}`);
+  console.log(`Value: ${dataPoint.y}`);
+  console.log("----------------------");
+});
+
