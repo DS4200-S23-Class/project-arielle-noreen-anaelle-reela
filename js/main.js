@@ -9,7 +9,7 @@ var data = {
         dataPoints: [
           {
             label: "African American",
-            y: 33427.42858,
+            y: 38431.42857,
             drilldown: "african_american_female"
           }
         ]
@@ -22,7 +22,7 @@ var data = {
         dataPoints: [
           {
             label: "African American",
-            y: 93647.06761,
+            y: 93651.06761,
             drilldown: "african_american_male"
           }
         ]
@@ -35,7 +35,7 @@ var data = {
         dataPoints: [
           {
             label: "American Indian",
-            y: 722.5878598,
+            y: 746.5878598,
             drilldown: "american_indian_female"
           }
         ]
@@ -139,7 +139,7 @@ var data = {
         dataPoints: [
           {
             label: "Native Hawaiian",
-            y: 233.7744603,
+            y: 259.7744603,
             drilldown: "native_hawaiian_female"
           }
         ]
