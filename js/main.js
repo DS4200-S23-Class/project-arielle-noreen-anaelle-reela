@@ -706,38 +706,40 @@ var data = {
     ]
   };
 
-
-      var chart = new CanvasJS.Chart("chartContainer", {
-        title:{
-          text: "Sample Chart"
-        },
-        animationEnabled: true,
-        axisY: {
-          title: "Count",
-        },
-        axisX: {
-          title: "Race/Ethnic Group by Sex"
-        },
-        data: data["Gender"],
-        toolTip: {
-          shared: true
-        },
-        legend: {
-          cursor: "pointer",
-          itemclick: function (e) {
-            if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-              e.dataSeries.visible = false;
-            } else {
-              e.dataSeries.visible = true;
-            }
-            chart.render();
-          }
+  var chartArray = [];
+  var chart = new CanvasJS.Chart("chartContainer", {
+    title:{
+      text: "Sample Chart"
+    },
+    animationEnabled: true,
+    axisY: {
+      title: "Count",
+    },
+    axisX: {
+      title: "Race/Ethnic Group by Sex"
+    },
+    data: data["Gender"],
+    toolTip: {
+      shared: true
+    },
+    legend: {
+      cursor: "pointer",
+      itemclick: function (e) {
+        if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+          e.dataSeries.visible = false;
+        } else {
+          e.dataSeries.visible = true;
         }
-      });
-      chart.render();
+        chart.render();
+      }
+    }
+  });
+  chart.render();
+
+  chartArray.push(chart);
 
   function genderDrilldownHandler(e) {
-    chart = new CanvasJS.Chart("chartContainer", {
+    var newChart = new CanvasJS.Chart("chartContainer", {
       animationEnabled: true,
       axisY: {
         title: "Count"
@@ -757,34 +759,36 @@ var data = {
           } else {
             e.dataSeries.visible = true;
           }
-          chart.render();
+          newChart.render();
         }
       }
     });
-  
-    chart.render();
+    
+    chartArray.push(newChart);
+    newChart.render();
+    
+    // Check if the chart data has only one record
+    if (data[e.dataPoint.drilldown].length === 1) {
+      var pieChart = new CanvasJS.Chart("chartContainer", {
+        animationEnabled: true,
+        title: {
+          text: data[e.dataPoint.drilldown][0].name
+        },
+        data: [{
+          type: "pie",
+          indexLabel: "{name}: {y}",
+          dataPoints: data[e.dataPoint.drilldown][0].data
+        }]
+      });
+      chartArray.push(pieChart);
+      pieChart.render();
+    }
+    
+    backButton.style.display = "block"; 
   }
   
   function raceDrillDownHandler(e) {
-    chart = new CanvasJS.Chart("chartContainer", {
-      animationEnabled: true,
-      axisY: {
-        title: "Count"
-      },
-      axisX: {
-        title: "Occupation by Disability Status "
-      },
-      data: data[e.dataPoint.drilldown],
-      toolTip: {
-        shared: true
-      }
-    });
-  
-    chart.render();
-  }
-  
-  function disabilityDrillDownHandler(e) {
-    chart = new CanvasJS.Chart("chartContainer", {
+    var newChart = new CanvasJS.Chart("chartContainer", {
       animationEnabled: true,
       axisY: {
         title: "Count"
@@ -797,19 +801,83 @@ var data = {
         shared: true
       }
     });
-  
-    chart.render();
+    
+    chartArray.push(newChart);
+    newChart.render();
+    
+    // Check if the chart data has only one record
+    if (data[e.dataPoint.drilldown].length === 1) {
+      var pieChart = new CanvasJS.Chart("chartContainer", {
+        animationEnabled: true,
+        title: {
+          text: data[e.dataPoint.drilldown][0].name
+        },
+        data: [{
+          type: "pie",
+          indexLabel: "{name}: {y}",
+          dataPoints: data[e.dataPoint.drilldown][0].data
+        }]
+      });
+      chartArray.push(pieChart);
+      pieChart.render();
+    }
+    
+    backButton.style.display = "block";
   }
   
 
+  function disabilityDrillDownHandler(e) {
+    var newChart = new CanvasJS.Chart("chartContainer", {
+      animationEnabled: true,
+      axisY: {
+        title: "Count"
+      },
+      axisX: {
+        title: "Occupation by Disability Status"
+      },
+      data: [{
+        type: "pie",
+        dataPoints: data[e.dataPoint.drilldown]
+      }],
+      toolTip: {
+        shared: true
+      }
+    });
+  
+    chartArray.push(newChart);
+    newChart.render();
+    backButton.style.display = "block";
+  }
+  
+  
+  
 
-  // var data = d3.csvParse(d3.select("#csv").text(), row);
 
-  // function row(d, i) {
-  //   if (i < 5) return d;
-  // }
+//adding the back button event listener
+var backButton = document.getElementById("backButton");
+backButton.addEventListener("click", function() {
+  // remove the current chart from the chartArray
+  chartArray.pop();
 
-// console.log("data is " + JSON.stringify(data));
+  // get the previous chart from the chartArray
+  var prevChart = chartArray[chartArray.length - 1].options;
+
+  
+  // create a new chart using the options of the previous chart
+  chart = new CanvasJS.Chart("chartContainer", prevChart); 
+
+  // render the new chart
+  chart.render();
+
+
+  // hide the back button if the previous chart is at the top level
+  if (!prevChart.options.data[0].hasOwnProperty("drilldown")) {
+    backButton.style.display = "none";
+  }
+});
+
+
+  //Logging data in the console
 
   d3.csv("/data/pm03_data.csv").then((data) => {
     console.log("PRINT 10 ROWS FROM CSV")
@@ -825,3 +893,4 @@ var data = {
   console.log("PRINTED JSON DATA");
   console.log(dataset);
 });
+
