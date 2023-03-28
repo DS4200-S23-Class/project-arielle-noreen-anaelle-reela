@@ -1,5 +1,5 @@
 
-var data = {
+let data = {
     "Gender": [
       
       {
@@ -189,7 +189,7 @@ var data = {
   
     "african_american_female": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -226,7 +226,7 @@ var data = {
     ],
     "african_american_male": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -264,7 +264,7 @@ var data = {
 
     "american_indian_female": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -301,7 +301,7 @@ var data = {
     ],
     "american_indian_male": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -339,7 +339,7 @@ var data = {
 
     "asian_female": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -376,7 +376,7 @@ var data = {
     ],
     "asian_male": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -414,7 +414,7 @@ var data = {
 
     "latino_female": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -451,7 +451,7 @@ var data = {
     ],
     "latino_male": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -489,7 +489,7 @@ var data = {
 
     "more_than_one_race_female": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -525,7 +525,7 @@ var data = {
     ],
     "more_than_one_race_male": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -562,7 +562,7 @@ var data = {
 
     "native_hawaiian_female": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -598,7 +598,7 @@ var data = {
     ],
     "native_hawaiian_male": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -635,7 +635,7 @@ var data = {
 
     "white_female": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -671,7 +671,7 @@ var data = {
     ],
     "white_male": [
       {
-        click: raceDrillDownHandler,
+        click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
         type: "column",
@@ -707,8 +707,8 @@ var data = {
     ]
   };
 
-  var chartArray = [];
-  var chart = new CanvasJS.Chart("chartContainer", {
+  let chartArray = [];
+  let chart = new CanvasJS.Chart("chartContainer", {
     title:{
       text: "Sample Chart"
     },
@@ -742,7 +742,7 @@ var data = {
   chartArray.push(chart);
 
   function genderDrilldownHandler(e) {
-    var newChart = new CanvasJS.Chart("chartContainer", {
+    let newChart = new CanvasJS.Chart("chartContainer", {
       animationEnabled: true,
       axisY: {
         title: "Count"
@@ -767,104 +767,64 @@ var data = {
         }
       }
     });
-    
+  
     chartArray.push(newChart);
     newChart.render();
-    
-    // Check if the chart data has only one record
-    if (data[e.dataPoint.drilldown].length === 1) {
-      var pieChart = new CanvasJS.Chart("chartContainer", {
-        animationEnabled: true,
-        title: {
-          text: data[e.dataPoint.drilldown][0].name
-        },
-        data: [{
-          type: "pie",
-          indexLabel: "{name}: {y}",
-          dataPoints: data[e.dataPoint.drilldown][0].data
-        }]
-      });
-      chartArray.push(pieChart);
-      pieChart.render();
-    }
-    
     backButton.style.display = "block"; 
-  }
   
-  function raceDrillDownHandler(e) {
-    var newChart = new CanvasJS.Chart("chartContainer", {
-      animationEnabled: true,
-      axisY: {
-        title: "Count"
-      },
-      axisX: {
-        title: "Occupation by Disability Status"
-      },
-      data: data[e.dataPoint.drilldown],
-      toolTip: {
-        shared: false
-      }
-    });
-    
-    chartArray.push(newChart);
-    newChart.render();
-    
-    // Check if the chart data has only one record
-    if (data[e.dataPoint.drilldown].length === 1) {
-      var pieChart = new CanvasJS.Chart("chartContainer", {
-        animationEnabled: true,
-        title: {
-          text: data[e.dataPoint.drilldown][0].name
-        },
-        data: [{
-          type: "pie",
-          indexLabel: "{name}: {y}",
-          dataPoints: data[e.dataPoint.drilldown][0].data
-        }]
-      });
-      chartArray.push(pieChart);
-      pieChart.render();
-    }
-    
-    backButton.style.display = "block";
-  }
-  
+   
+  } 
 
+  
   function disabilityDrillDownHandler(e) {
-    var newChart = new CanvasJS.Chart("chartContainer", {
-      animationEnabled: true,
-      axisY: {
-        title: "Count"
-      },
-      axisX: {
-        title: "Occupation by Disability Status"
-      },
-      data: [{
-        type: "pie",
-        dataPoints: data[e.dataPoint.drilldown]
-      }],
-      toolTip: {
-        shared: false
-      }
-    });
+    
+    console.log(e.dataSeries.dataPoints)
+    let selectedOccupation = e.dataPoint.label;
+    console.log(selectedOccupation)
+
+
+    let withoutdis = e.dataPoint.y;
+    console.log(withoutdis)
+
+    //create the pie chart
+    let piechart = new CanvasJS.Chart("chartContainer",
+  {
+    title:{
+      text: "Distribution of those With/Without Disability in " + selectedOccupation
+    },
+    legend: {
+      maxWidth: 350,
+      itemWidth: 120
+    },
+    data: [
+    {
+      type: "pie",
+      showInLegend: true,
+      legendText: "{indexLabel}",
+      dataPoints: [
+        { y: 19577, indexLabel: "With Disability" },
+        { y: withoutdis, indexLabel: "Without Disability" }]
+    }
+    ]
+   
+  });
+  piechart.render();
+}
   
-    chartArray.push(newChart);
-    newChart.render();
-    backButton.style.display = "block";
-  }
-  
-  
-  
+// chart.render();  
+
+
+
 
 
 //adding the back button event listener
-var backButton = document.getElementById("backButton");
+let backButton = document.getElementById("backButton");
 backButton.addEventListener("click", function() {
   // remove the current chart from the chartArray
   chartArray.pop();
 
   // get the previous chart from the chartArray
-  var prevChart = chartArray[chartArray.length - 1].options;
+  let prevChart = chartArray[chartArray.length - 1].options;
 
   
   // create a new chart using the options of the previous chart
