@@ -1,6 +1,7 @@
 
 var data = {
     "Gender": [
+      
       {
         click: genderDrilldownHandler,
         cursor: "pointer",
@@ -720,7 +721,9 @@ var data = {
     },
     data: data["Gender"],
     toolTip: {
-      shared: true
+      shared: false,
+      content:"Sex: {name} <br/> Race: {label} <br/> Total: {y}"
+      // content:"<div style='max-width:200px;' class='wordwrap'> Sex: {name}, Race: {label}, Total: {y}</div>"
     },
     legend: {
       cursor: "pointer",
@@ -749,7 +752,8 @@ var data = {
       },
       data: data[e.dataPoint.drilldown],
       toolTip: {
-        shared: true
+        shared: false,
+        content: "Status: {name}, Total: {y}"
       },
       legend: {
         cursor: "pointer",
@@ -798,7 +802,7 @@ var data = {
       },
       data: data[e.dataPoint.drilldown],
       toolTip: {
-        shared: true
+        shared: false
       }
     });
     
@@ -840,7 +844,7 @@ var data = {
         dataPoints: data[e.dataPoint.drilldown]
       }],
       toolTip: {
-        shared: true
+        shared: false
       }
     });
   
