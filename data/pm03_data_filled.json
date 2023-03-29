@@ -20,7 +20,7 @@
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Physical Scientist",
@@ -28,7 +28,7 @@
                 },
                 {
                   "name": "Psychologist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer Engineer",
@@ -61,7 +61,7 @@
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Physical Scientist",
@@ -69,7 +69,7 @@
                 },
                 {
                   "name": "Psychologist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer Engineer",
@@ -99,15 +99,15 @@
               "children": [
                 {
                   "name": "Social Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer and Information Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Physical Scientist",
@@ -119,19 +119,19 @@
                 },
                 {
                   "name": "Computer Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Mechanical Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Civil Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Industrial Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 }
               ]
             },
@@ -140,15 +140,15 @@
               "children": [
                 {
                   "name": "Social Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer and Information Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Physical Scientist",
@@ -160,19 +160,19 @@
                 },
                 {
                   "name": "Computer Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Mechanical Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Civil Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Industrial Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 }
               ]
             }
@@ -447,7 +447,7 @@
               "children": [
                 {
                   "name": "Social Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer and Information Scientist",
@@ -455,31 +455,31 @@
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Physical Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Psychologist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Computer Engineer",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Mechanical Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Civil Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Industrial Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 }
               ]
             },
@@ -488,7 +488,7 @@
               "children": [
                 {
                   "name": "Social Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer and Information Scientist",
@@ -496,31 +496,31 @@
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Physical Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Psychologist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Computer Engineer",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Mechanical Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Civil Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Industrial Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 }
               ]
             }
@@ -634,7 +634,7 @@
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Physical Scientist",
@@ -642,7 +642,7 @@
                 },
                 {
                   "name": "Psychologist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer Engineer",
@@ -675,7 +675,7 @@
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Physical Scientist",
@@ -683,7 +683,7 @@
                 },
                 {
                   "name": "Psychologist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer Engineer",
@@ -713,15 +713,15 @@
               "children": [
                 {
                   "name": "Social Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer and Information Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Physical Scientist",
@@ -733,19 +733,19 @@
                 },
                 {
                   "name": "Computer Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Mechanical Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Civil Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Industrial Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 }
               ]
             },
@@ -754,15 +754,15 @@
               "children": [
                 {
                   "name": "Social Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer and Information Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Physical Scientist",
@@ -774,19 +774,19 @@
                 },
                 {
                   "name": "Computer Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Mechanical Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Civil Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Industrial Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 }
               ]
             }
@@ -1061,7 +1061,7 @@
               "children": [
                 {
                   "name": "Social Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer and Information Scientist",
@@ -1069,31 +1069,31 @@
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Physical Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Psychologist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Computer Engineer",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Mechanical Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Civil Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Industrial Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 }
               ]
             },
@@ -1102,7 +1102,7 @@
               "children": [
                 {
                   "name": "Social Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Computer and Information Scientist",
@@ -1110,31 +1110,31 @@
                 },
                 {
                   "name": "Mathematical Scientist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Physical Scientist",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Psychologist",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Computer Engineer",
-                  "value": -1.0
+                  "value": 0.01
                 },
                 {
                   "name": "Mechanical Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Civil Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 },
                 {
                   "name": "Industrial Engineer",
-                  "value": -2.0
+                  "value": 0.0
                 }
               ]
             }
