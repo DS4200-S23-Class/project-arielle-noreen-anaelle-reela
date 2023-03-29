@@ -5,6 +5,7 @@ let data = {
       "click": genderDrilldownHandler,
       "cursor": "pointer",
       "name": "Female",
+      "color": "#D17B88",
       "type": "column",
       "dataPoints": [
         {
@@ -48,6 +49,7 @@ let data = {
       "click": genderDrilldownHandler,
       "cursor": "pointer",
       "name": "Male",
+      "color": "#457EAC",
       "type": "column",
       "dataPoints": [
         {
@@ -643,6 +645,10 @@ let data = {
 
   chartArray.push(chart);
 
+  //establishing the race and gender variable for the pie chart as a global variable
+  let race;
+  let gender; 
+
   function genderDrilldownHandler(e) {
     let newChart = new CanvasJS.Chart("chartContainer", {
       animationEnabled: true,
@@ -650,7 +656,7 @@ let data = {
         title: "Count"
       },
       axisX: {
-        title: "Occupation by Disability Status"
+        title: "Occupation by Disability Status Among " + e.dataPoint.drilldown
       },
       data: data[e.dataPoint.drilldown],
       toolTip: {
@@ -673,26 +679,60 @@ let data = {
     chartArray.push(newChart);
     newChart.render();
     backButton.style.display = "block"; 
-  
+    console.log('hi');
+    //overwriting race variable
+    race = e.dataPoint.drilldown;
+   
+    
    
   } 
 
   
   function disabilityDrillDownHandler(e) {
-    
-    console.log(e.dataSeries.dataPoints)
+
+    //ensure that the click grabbed the right race
+    console.log(race)
+
     let selectedOccupation = e.dataPoint.label;
+
+    //ensure that the click grabbed the right occupation
     console.log(selectedOccupation)
+    
+    //let withoutdis = e.dataPoint.y;
+   // console.log(withoutdis)
+
+   //make an array of the with and without disability values
+  // Accessing data points for "Physical Scientist" with disability
+  var occupationwithdisability = null;
+  var racewithdisability = data[race][0]["dataPoints"];
+  for (var i = 0; i < racewithdisability.length; i++) {
+    if (racewithdisability[i]["label"] === selectedOccupation) {
+      occupationwithdisability = racewithdisability[i]["y"];
+      break;
+    }
+  }
+
+  // Accessing data points for "Physical Scientist" without disability
+  var occupationwithoutdisability = null;
+  var racewithoutdisability = data[race][1]["dataPoints"];
+  for (var i = 0; i < racewithoutdisability.length; i++) {
+    if (racewithoutdisability[i]["label"] === selectedOccupation) {
+      occupationwithoutdisability = racewithoutdisability[i]["y"];
+      break;
+    }
+  }
+
+  // Printing the values
+  console.log(race + selectedOccupation + "with disability: " + occupationwithdisability);
+  console.log(race + selectedOccupation+ "without disability: " + occupationwithoutdisability);
 
 
-    let withoutdis = e.dataPoint.y;
-    console.log(withoutdis)
 
     //create the pie chart
     let piechart = new CanvasJS.Chart("chartContainer",
   {
     title:{
-      text: "Distribution of those With/Without Disability in " + selectedOccupation
+      text: "Distribution of " + race + " With/Without Disability in " + selectedOccupation
     },
     legend: {
       maxWidth: 350,
@@ -704,8 +744,8 @@ let data = {
       showInLegend: true,
       legendText: "{indexLabel}",
       dataPoints: [
-        { y: 19577, indexLabel: "With Disability" },
-        { y: withoutdis, indexLabel: "Without Disability" }]
+        { y: occupationwithdisability, indexLabel: "With Disability" },
+        { y: occupationwithoutdisability, indexLabel: "Without Disability" }]
     }
     ]
    
