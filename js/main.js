@@ -1,191 +1,93 @@
 
 let data = {
-    "Gender": [
-      
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Female",
-        type: "column",
-        dataPoints: [
-          {
-            label: "African American",
-            y: 38431.42857,
-            drilldown: "african_american_female"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Male",
-        type: "column",
-        dataPoints: [
-          {
-            label: "African American",
-            y: 93651.06761,
-            drilldown: "african_american_male"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Female",
-        type: "column",
-        dataPoints: [
-          {
-            label: "American Indian",
-            y: 746.5878598,
-            drilldown: "american_indian_female"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Male",
-        type: "column",
-        dataPoints: [
-          {
-            label: "American Indian",
-            y: 755.857128,
-            drilldown: "american_indian_male"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Female",
-        type: "column",
-        dataPoints: [
-          {
-            label: "Asian",
-            y: 134109.2405,
-            drilldown: "asian_female"
-          }
-        ]
-      },                                  
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Male",
-        type: "column",
-        dataPoints: [
-          {
-            label: "Asian",
-            y: 408296.9438,
-            drilldown: "asian_male"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Female",
-        type: "column",
-        dataPoints: [
-          {
-            label: "Latino",
-            y: 79337.68756,
-            drilldown: "latino_female"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Male",
-        type: "column",
-        dataPoints: [
-          {
-            label: "Latino",
-            y: 174274.8457,
-            drilldown: "latino_male"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Female",
-        type: "column",
-        dataPoints: [
-          {
-            label: "More Than One Race",
-            y: 15125.5324,
-            drilldown: "more_than_one_race_female"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Male",
-        type: "column",
-        dataPoints: [
-          {
-            label: "More Than One Race",
-            y: 37005.32795,
-            drilldown: "more_than_one_race_male"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Female",
-        type: "column",
-        dataPoints: [
-          {
-            label: "Native Hawaiian",
-            y: 259.7744603,
-            drilldown: "native_hawaiian_female"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Male",
-        type: "column",
-        dataPoints: [
-          {
-            label: "Native Hawaiian",
-            y: 820.1903388,
-            drilldown: "native_hawaiian_male"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Female",
-        type: "column",
-        dataPoints: [
-          {
-            label: "White",
-            y: 918721.3206,
-            drilldown: "white_female"
-          }
-        ]
-      },
-      {
-        click: genderDrilldownHandler,
-        cursor: "pointer",
-        name: "Male",
-        type: "column",
-        dataPoints: [
-          {
-            label: "White",
-            y: 1429143.629,
-            drilldown: "white_male"
-          }
-        ]
-      },
-    
-    ],
+  "Gender": [
+    {
+      "click": genderDrilldownHandler,
+      "cursor": "pointer",
+      "name": "Female",
+      "type": "column",
+      "dataPoints": [
+        {
+          "label": "African American",
+          "y": 38431.42857,
+          "drilldown": "african_american_female"
+        },
+        {
+          "label": "American Indian",
+          "y": 746.5878598,
+          "drilldown": "american_indian_female"
+        },
+        {
+          "label": "Asian",
+          "y": 134109.2405,
+          "drilldown": "asian_female"
+        },
+        {
+          "label": "Latino",
+          "y": 79337.68756,
+          "drilldown": "latino_female"
+        },
+        {
+          "label": "More Than One Race",
+          "y": 15125.5324,
+          "drilldown": "more_than_one_race_female"
+        },
+        {
+          "label": "Native Hawaiian",
+          "y": 259.7744603,
+          "drilldown": "native_hawaiian_female"
+        },
+        {
+          "label": "White",
+          "y": 918721.3206,
+          "drilldown": "white_female"
+        }
+      ]
+    },
+    {
+      "click": genderDrilldownHandler,
+      "cursor": "pointer",
+      "name": "Male",
+      "type": "column",
+      "dataPoints": [
+        {
+          "label": "African American",
+          "y": 93651.06761,
+          "drilldown": "african_american_male"
+        },
+        {
+          "label": "American Indian",
+          "y": 755.857128,
+          "drilldown": "american_indian_male"
+        },
+        {
+          "label": "Asian",
+          "y": 408296.9438,
+          "drilldown": "asian_male"
+        },
+        {
+          "label": "Latino",
+          "y": 174274.8457,
+          "drilldown": "latino_male"
+        },
+        {
+          "label": "More Than One Race",
+          "y": 37005.32795,
+          "drilldown": "more_than_one_race_male"
+        },
+        {
+          "label": "Native Hawaiian",
+          "y": 820.1903388,
+          "drilldown": "native_hawaiian_male"
+        },
+        {
+          "label": "White",
+          "y": 1429143.629,
+          "drilldown": "white_male"
+        }
+      ]
+    }
+  ],
   
     "african_american_female": [
       {
