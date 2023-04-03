@@ -650,13 +650,22 @@ let data = {
   let gender; 
 
   function genderDrilldownHandler(e) {
+    // getting the formatted axis title
+    let group = e.dataPoint.drilldown;
+    let words = group.split("_");
+    let title = "";
+    for(i = 0; i<words.length; i++){
+      title+= words[i].charAt(0).toUpperCase() + words[i].slice(1) + " ";
+    }
+    title = title.trim() + "s";
+  
     let newChart = new CanvasJS.Chart("chartContainer", {
       animationEnabled: true,
       axisY: {
         title: "Count"
       },
       axisX: {
-        title: "Occupation by Disability Status Among " + e.dataPoint.drilldown
+        title: "Occupation by Disability Status Among " + title
       },
       data: data[e.dataPoint.drilldown],
       toolTip: {
@@ -679,7 +688,6 @@ let data = {
     chartArray.push(newChart);
     newChart.render();
     backButton.style.display = "block"; 
-    console.log('hi');
     //overwriting race variable
     race = e.dataPoint.drilldown;
    
@@ -692,6 +700,15 @@ let data = {
 
     //ensure that the click grabbed the right race
     console.log(race)
+     // getting the formatted axis title
+     let words = race.split("_");
+     let title = "";
+     for(i = 0; i<words.length; i++){
+       title+= words[i].charAt(0).toUpperCase() + words[i].slice(1) + " ";
+     }
+     title = title.trim() + "s";
+     console.log(title);
+   
 
     let selectedOccupation = e.dataPoint.label;
 
@@ -732,7 +749,7 @@ let data = {
     let piechart = new CanvasJS.Chart("chartContainer",
   {
     title:{
-      text: "Distribution of " + race + " With/Without Disability in " + selectedOccupation
+      text: "Distribution of " + title + " With/Without Disability in " + selectedOccupation
     },
     legend: {
       maxWidth: 350,
