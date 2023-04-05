@@ -1,11 +1,11 @@
-
+// initialize all data in the correct format
 let data = {
   "Gender": [
     {
       "click": genderDrilldownHandler,
       "cursor": "pointer",
       "name": "Female",
-      "color": "#D17B88",
+      "color": "#F49AC2",
       "type": "column",
       "dataPoints": [
         {
@@ -49,7 +49,7 @@ let data = {
       "click": genderDrilldownHandler,
       "cursor": "pointer",
       "name": "Male",
-      "color": "#457EAC",
+      "color": "#5DA9E9",
       "type": "column",
       "dataPoints": [
         {
@@ -96,6 +96,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 1695.731426 },
@@ -113,6 +114,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 16040.70268 },
@@ -133,6 +135,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 1459.307333 },
@@ -150,6 +153,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 13804.25856 },
@@ -171,6 +175,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: -1 },
@@ -188,6 +193,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: -1 },
@@ -208,6 +214,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: -1 },
@@ -225,6 +232,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: -1 },
@@ -246,6 +254,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 1747.117 },
@@ -263,6 +272,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:  16526.78},
@@ -283,6 +293,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 1503.528768 },
@@ -300,6 +311,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 14222.56942 },
@@ -321,6 +333,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:  2672.062},
@@ -338,6 +351,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:  25276.26 },
@@ -358,6 +372,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 2299.515 },
@@ -375,6 +390,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 21752.17 },
@@ -396,6 +412,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:  359.7006 },
@@ -413,6 +430,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:  3402.573 },
@@ -432,6 +450,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:   309.5},
@@ -449,6 +468,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:  2928.176 },
@@ -469,6 +489,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:  -1 },
@@ -486,6 +507,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:   -1},
@@ -505,6 +527,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: -1  },
@@ -522,6 +545,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:  -1 },
@@ -542,6 +566,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:  13308.92 },
@@ -559,6 +584,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y:  125895.2 },
@@ -578,6 +604,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "With Disability",
+        color: "#FFB347",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 11453.35149  },
@@ -595,6 +622,7 @@ let data = {
         click: disabilityDrillDownHandler,
         cursor: "pointer",
         name: "Without Disability",
+        color: "#B19CD9",
         type: "column",
         dataPoints: [
           { label: "Social Scientist", y: 108342.5  },
@@ -611,45 +639,66 @@ let data = {
     ]
   };
 
+  // create chartarray to append each chart to use for backbutton function
   let chartArray = [];
+
+  // create a new canvasjs chart
   let chart = new CanvasJS.Chart("chartContainer", {
+    //add a title 
     title:{
-      text: "Sample Chart"
+      text: "Representation of Various Demographic Groups in STEM Fields"
     },
+    //enable animation
     animationEnabled: true,
+    // create y axis with label count
     axisY: {
       title: "Count",
     },
+    // create x axis with label race/ethnic group by sec
     axisX: {
       title: "Race/Ethnic Group by Sex"
     },
+    //data for chart comes from all the child elements of the parent 'gender' in our data variable
     data: data["Gender"],
+    //manually create tooltip with parameters sex, race, and total that shows up when user hovers over bar
     toolTip: {
       shared: false,
       content:"Sex: {name} <br/> Race: {label} <br/> Total: {y}"
-      // content:"<div style='max-width:200px;' class='wordwrap'> Sex: {name}, Race: {label}, Total: {y}</div>"
+  
     },
+    // define the legend properties of the chart
     legend: {
+      //cursor style is pointer so that the bars are clickable
       cursor: "pointer",
+      //create function itemclick called when a user clicks on a bar
       itemclick: function (e) {
+        // 'if statement' checks if the data associated with the bar has been clicked before
+        // if the data isn't already visible, then make it visible
         if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+          // hide chart
           e.dataSeries.visible = false;
         } else {
+          //make chart visible
           e.dataSeries.visible = true;
         }
+        // rerenders the chart after the data visibility changes
         chart.render();
       }
     }
   });
+  //renders the chart initially after all the properties have been set
   chart.render();
 
+  //append the chart to the array
   chartArray.push(chart);
 
   //establishing the race and gender variable for the pie chart as a global variable
   let race;
   let gender; 
 
+  //create a new function that handles the first drilldown (i.e what happens after you click a bar on the first chart)
   function genderDrilldownHandler(e) {
+
     // getting the formatted axis title
     let group = e.dataPoint.drilldown;
     let words = group.split("_");
@@ -660,19 +709,28 @@ let data = {
     title = title.trim() + "s";
   
     let newChart = new CanvasJS.Chart("chartContainer", {
+
+      //enable animation
       animationEnabled: true,
+      // create a y axis titled count
       axisY: {
         title: "Count"
       },
+      // create an x axis titled occupation by disability status
+      // + e.dataPoint.drilldown changes title to the race & gender the user selected in the previous chart
       axisX: {
         title: "Occupation by Disability Status Among " + title
       },
+      // grab data associated with which race and gender user chose from previous graph
       data: data[e.dataPoint.drilldown],
+      //create a tooltip
       toolTip: {
         shared: false,
+        // manually change the content: status is with or without disability, total is the number of employees in that demographic
         content: "Status: {name}, Total: {y}"
       },
       legend: {
+        // mimic same legend as first chart
         cursor: "pointer",
         itemclick: function (e) {
           if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
@@ -684,9 +742,12 @@ let data = {
         }
       }
     });
-  
+    // append the new chart to our array of charts 
     chartArray.push(newChart);
     newChart.render();
+    
+    // display the back button in block form
+    // block form takes the entire width available and adds a new line before and after the button
     backButton.style.display = "block"; 
     //overwriting race variable
     race = e.dataPoint.drilldown;
@@ -695,7 +756,7 @@ let data = {
    
   } 
 
-  
+  // 
   function disabilityDrillDownHandler(e) {
 
     //ensure that the click grabbed the right race
@@ -710,27 +771,36 @@ let data = {
      console.log(title);
    
 
+    // save the occupation user selected to use when making the pie chart
     let selectedOccupation = e.dataPoint.label;
 
     //ensure that the click grabbed the right occupation
     console.log(selectedOccupation)
     
-    //let withoutdis = e.dataPoint.y;
-   // console.log(withoutdis)
 
    //make an array of the with and without disability values
   // Accessing data points for "Physical Scientist" with disability
   var occupationwithdisability = null;
   var racewithdisability = data[race][0]["dataPoints"];
+
+// Loop through each item in the racewithdisability array
   for (var i = 0; i < racewithdisability.length; i++) {
+
+    // Check if the "label" property of the current item in the loop is equal to the selectedOccupation variable
     if (racewithdisability[i]["label"] === selectedOccupation) {
+
+      // If the label matches, assign the "y" property value of that item to the occupationwithdisability variable
       occupationwithdisability = racewithdisability[i]["y"];
       break;
     }
   }
 
   // Accessing data points for "Physical Scientist" without disability
+  //function is same process as above function
   var occupationwithoutdisability = null;
+  
+  // note that we are grabbing data[race][1]["dataPoints"] as opposed to data[race][0]["dataPoints"] like above
+  //this is because the data for without disability is in the 1st position of data[race]
   var racewithoutdisability = data[race][1]["dataPoints"];
   for (var i = 0; i < racewithoutdisability.length; i++) {
     if (racewithoutdisability[i]["label"] === selectedOccupation) {
@@ -755,14 +825,15 @@ let data = {
       maxWidth: 350,
       itemWidth: 120
     },
+
     data: [
     {
       type: "pie",
       showInLegend: true,
       legendText: "{indexLabel}",
       dataPoints: [
-        { y: occupationwithdisability, indexLabel: "With Disability" },
-        { y: occupationwithoutdisability, indexLabel: "Without Disability" }]
+        { y: occupationwithdisability, indexLabel: "With Disability", color:"#FFB347"},
+        { y: occupationwithoutdisability, indexLabel: "Without Disability", color:"#B19CD9"}]
     }
     ]
    
@@ -770,20 +841,21 @@ let data = {
   piechart.render();
 }
   
-// chart.render();  
 
 
 
+// create a new variable currentchartindex
+let currentChartIndex = 0;
 
-
-//adding the back button event listener
-let backButton = document.getElementById("backButton");
 backButton.addEventListener("click", function() {
   // remove the current chart from the chartArray
   chartArray.pop();
 
+  // update the current chart index
+  currentChartIndex = chartArray.length - 1;
+
   // get the previous chart from the chartArray
-  let prevChart = chartArray[chartArray.length - 1].options;
+  let prevChart = chartArray[currentChartIndex].options;
 
   
   // create a new chart using the options of the previous chart
@@ -792,12 +864,13 @@ backButton.addEventListener("click", function() {
   // render the new chart
   chart.render();
 
-
-  // hide the back button if the previous chart is at the top level
-  if (!prevChart.options.data[0].hasOwnProperty("drilldown")) {
+// back button doesn't show up on first chart
+  if (chartArray.length =1) {
     backButton.style.display = "none";
-  }
+  } 
+  
 });
+
 
 
   //Logging data in the console
