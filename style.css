@@ -31,6 +31,7 @@ p.shifted {
   .tooltip {
     position: relative;
     display: inline-block;
+    background-color: rgb(255, 175, 175);
     border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
   }
   
