@@ -698,9 +698,16 @@ let data = {
 
   //create a new function that handles the first drilldown (i.e what happens after you click a bar on the first chart)
   function genderDrilldownHandler(e) {
-    //create a new chart
-    
 
+    // getting the formatted axis title
+    let group = e.dataPoint.drilldown;
+    let words = group.split("_");
+    let title = "";
+    for(i = 0; i<words.length; i++){
+      title+= words[i].charAt(0).toUpperCase() + words[i].slice(1) + " ";
+    }
+    title = title.trim() + "s";
+  
     let newChart = new CanvasJS.Chart("chartContainer", {
 
       //enable animation
@@ -712,7 +719,7 @@ let data = {
       // create an x axis titled occupation by disability status
       // + e.dataPoint.drilldown changes title to the race & gender the user selected in the previous chart
       axisX: {
-        title: "Occupation by Disability Status Among " + e.dataPoint.drilldown
+        title: "Occupation by Disability Status Among " + title
       },
       // grab data associated with which race and gender user chose from previous graph
       data: data[e.dataPoint.drilldown],
@@ -742,7 +749,6 @@ let data = {
     // display the back button in block form
     // block form takes the entire width available and adds a new line before and after the button
     backButton.style.display = "block"; 
-  
     //overwriting race variable
     race = e.dataPoint.drilldown;
    
@@ -755,6 +761,15 @@ let data = {
 
     //ensure that the click grabbed the right race
     console.log(race)
+     // getting the formatted axis title
+     let words = race.split("_");
+     let title = "";
+     for(i = 0; i<words.length; i++){
+       title+= words[i].charAt(0).toUpperCase() + words[i].slice(1) + " ";
+     }
+     title = title.trim() + "s";
+     console.log(title);
+   
 
     // save the occupation user selected to use when making the pie chart
     let selectedOccupation = e.dataPoint.label;
@@ -804,7 +819,7 @@ let data = {
     let piechart = new CanvasJS.Chart("chartContainer",
   {
     title:{
-      text: "Distribution of " + race + " With/Without Disability in " + selectedOccupation
+      text: "Distribution of " + title + " With/Without Disability in " + selectedOccupation
     },
     legend: {
       maxWidth: 350,
