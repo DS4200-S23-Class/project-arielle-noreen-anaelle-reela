@@ -101,9 +101,9 @@ let data = {
         dataPoints: [
           { label: "Social Scientist", y: 1695.731426 },
           { label: "Computer and Information Scientist", y: 4040.771409 },
-          { label: "Mathematical Scientist", y: -1 },
+          { label: "Mathematical Scientist", y: 1 },
           { label: "Physical Scientist", y: 702.8652387 },
-          { label: "Psychologist", y: -1 },
+          { label: "Psychologist", y: 1 },
           { label: "Computer Engineer", y: 211.7777359 },
           { label: "Mechanical Engineer", y: 47.11213 },
           { label: "Civil Engineer", y: 217.6871 },
@@ -119,9 +119,9 @@ let data = {
         dataPoints: [
           { label: "Social Scientist", y: 16040.70268 },
           { label: "Computer and Information Scientist", y: 4142.124091 },
-          { label: "Mathematical Scientist", y: -1 },
+          { label: "Mathematical Scientist", y: 1 },
           { label: "Physical Scientist", y: 5561.803193 },
-          { label: "Psychologist", y: -1 },
+          { label: "Psychologist", y: 1 },
           { label: "Computer Engineer", y: 2084.338769 },
           { label: "Mechanical Engineer", y: 610.7128 },
           { label: "Civil Engineer", y: 2075.802 },
@@ -140,9 +140,9 @@ let data = {
         dataPoints: [
           { label: "Social Scientist", y: 1459.307333 },
           { label: "Computer and Information Scientist", y: 12757.99656},
-          { label: "Mathematical Scientist", y: -1},
+          { label: "Mathematical Scientist", y: 1},
           { label: "Physical Scientist", y: 1321.584639},
-          { label: "Psychologist", y: -1 },
+          { label: "Psychologist", y: 1 },
           { label: "Computer Engineer", y:  1817.348478},
           { label: "Mechanical Engineer", y:524.3124},
           { label: "Civil Engineer", y:  925.1701},
@@ -158,9 +158,9 @@ let data = {
         dataPoints: [
           { label: "Social Scientist", y: 13804.25856 },
           { label: "Computer and Information Scientist", y: 13077.99911},
-          { label: "Mathematical Scientist", y: -1 },
+          { label: "Mathematical Scientist", y: 1 },
           { label: "Physical Scientist", y:  10457.75671 },
-          { label: "Psychologist", y: -1 },
+          { label: "Psychologist", y: 1 },
           { label: "Computer Engineer", y: 17886.53502 },
           { label: "Mechanical Engineer", y: 6796.642 },
           { label: "Civil Engineer", y: 8822.157 },
@@ -178,15 +178,15 @@ let data = {
         color: "#FFB347",
         type: "column",
         dataPoints: [
-          { label: "Social Scientist", y: -1 },
-          { label: "Computer and Information Scientist", y: -1},
-          { label: "Mathematical Scientist", y: -2 },
+          { label: "Social Scientist", y: 1 },
+          { label: "Computer and Information Scientist", y: 1},
+          { label: "Mathematical Scientist", y: 2.0 },
           { label: "Physical Scientist", y: 39.04807 },
           { label: "Psychologist", y: 38.98866},
-          { label: "Computer Engineer", y: -2 },
-          { label: "Mechanical Engineer", y: -2 },
-          { label: "Civil Engineer", y: -2 },
-          { label: "Industrial Engineer", y: -2 }
+          { label: "Computer Engineer", y: 2.0 },
+          { label: "Mechanical Engineer", y: 2.0 },
+          { label: "Civil Engineer", y: 2.0 },
+          { label: "Industrial Engineer", y: 2.0 }
         ]
       },
       {
@@ -196,15 +196,15 @@ let data = {
         color: "#B19CD9",
         type: "column",
         dataPoints: [
-          { label: "Social Scientist", y: -1 },
-          { label: "Computer and Information Scientist", y: -1 },
-          { label: "Mathematical Scientist", y: -2 },
+          { label: "Social Scientist", y: 1 },
+          { label: "Computer and Information Scientist", y: 1 },
+          { label: "Mathematical Scientist", y: 2.0 },
           { label: "Physical Scientist", y: 308.9891 },
           { label: "Psychologist", y: 359.5621 },
-          { label: "Computer Engineer", y: -2 },
-          { label: "Mechanical Engineer", y: -2 },
-          { label: "Civil Engineer", y: -2 },
-          { label: "Industrial Engineer", y: -2}
+          { label: "Computer Engineer", y: 2.0 },
+          { label: "Mechanical Engineer", y: 2.0 },
+          { label: "Civil Engineer", y: 2.0 },
+          { label: "Industrial Engineer", y: 2.0}
         ]
       }
     
@@ -217,15 +217,15 @@ let data = {
         color: "#FFB347",
         type: "column",
         dataPoints: [
-          { label: "Social Scientist", y: -1 },
-          { label: "Computer and Information Scientist", y: -1},
-          { label: "Mathematical Scientist", y:  -2},
+          { label: "Social Scientist", y: 1 },
+          { label: "Computer and Information Scientist", y: 1},
+          { label: "Mathematical Scientist", y:  2.0},
           { label: "Physical Scientist", y: 73.42136883},
           { label: "Psychologist", y: 9.924385633},
-          { label: "Computer Engineer", y: -2},
-          { label: "Mechanical Engineer", y: -2 },
-          { label: "Civil Engineer", y: -2 },
-          { label: "Industrial Engineer", y: -2}
+          { label: "Computer Engineer", y: 2.0},
+          { label: "Mechanical Engineer", y: 2.0 },
+          { label: "Civil Engineer", y: 2.0 },
+          { label: "Industrial Engineer", y: 2.0}
         ]
       },
       {
@@ -235,15 +235,15 @@ let data = {
         color: "#B19CD9",
         type: "column",
         dataPoints: [
-          { label: "Social Scientist", y: -1 },
-          { label: "Computer and Information Scientist", y: -1},
-          { label: "Mathematical Scientist", y: -2 },
+          { label: "Social Scientist", y: 1 },
+          { label: "Computer and Information Scientist", y: 1},
+          { label: "Mathematical Scientist", y: 2.0 },
           { label: "Physical Scientist", y: 580.9864838 },
           { label: "Psychologist", y: 91.52488973},
-          { label: "Computer Engineer", y: -2},
-          { label: "Mechanical Engineer", y: -2 },
-          { label: "Civil Engineer", y:  -2},
-          { label: "Industrial Engineer", y:  -2}
+          { label: "Computer Engineer", y: 2.0},
+          { label: "Mechanical Engineer", y: 2.0 },
+          { label: "Civil Engineer", y:  2.0},
+          { label: "Industrial Engineer", y:  2.0}
         ]
       }
     
@@ -492,15 +492,15 @@ let data = {
         color: "#FFB347",
         type: "column",
         dataPoints: [
-          { label: "Social Scientist", y:  -1 },
+          { label: "Social Scientist", y:  1 },
           { label: "Computer and Information Scientist", y: 128.2785  },
-          { label: "Mathematical Scientist", y: -2  },
-          { label: "Physical Scientist", y: -1 },
-          { label: "Psychologist", y:   -2},
-          { label: "Computer Engineer", y:   -1},
-          { label: "Mechanical Engineer", y:  -2},
-          { label: "Civil Engineer", y: -2 },
-          { label: "Industrial Engineer", y:  -2}
+          { label: "Mathematical Scientist", y: 2.0  },
+          { label: "Physical Scientist", y: 1 },
+          { label: "Psychologist", y:   2.0},
+          { label: "Computer Engineer", y:   1},
+          { label: "Mechanical Engineer", y:  2.0},
+          { label: "Civil Engineer", y: 2.0 },
+          { label: "Industrial Engineer", y:  2.0}
         ]
       },
       {
@@ -510,15 +510,15 @@ let data = {
         color: "#B19CD9",
         type: "column",
         dataPoints: [
-          { label: "Social Scientist", y:   -1},
+          { label: "Social Scientist", y:   1},
           { label: "Computer and Information Scientist", y:  131.496},
-          { label: "Mathematical Scientist", y:  -2},
-          { label: "Physical Scientist", y: -1 },
-          { label: "Psychologist", y:  -2},
-          { label: "Computer Engineer", y:   -1 },
-          { label: "Mechanical Engineer", y:  -2},
-          { label: "Civil Engineer", y:  -2},
-          { label: "Industrial Engineer", y: -2 }
+          { label: "Mathematical Scientist", y:  2.0},
+          { label: "Physical Scientist", y: 1 },
+          { label: "Psychologist", y:  2.0},
+          { label: "Computer Engineer", y:   1 },
+          { label: "Mechanical Engineer", y:  2.0},
+          { label: "Civil Engineer", y:  2.0},
+          { label: "Industrial Engineer", y: 2.0 }
         ]
       }
     ],
@@ -530,15 +530,15 @@ let data = {
         color: "#FFB347",
         type: "column",
         dataPoints: [
-          { label: "Social Scientist", y: -1  },
+          { label: "Social Scientist", y: 1  },
           { label: "Computer and Information Scientist", y: 405.0157638  },
-          { label: "Mathematical Scientist", y: -2  },
-          { label: "Physical Scientist", y: -1 },
-          { label: "Psychologist", y: -2  },
-          { label: "Computer Engineer", y:  -1 },
-          { label: "Mechanical Engineer", y: -2 },
-          { label: "Civil Engineer", y: -2 },
-          { label: "Industrial Engineer", y: -2 }
+          { label: "Mathematical Scientist", y: 2.0  },
+          { label: "Physical Scientist", y: 1 },
+          { label: "Psychologist", y: 2.0  },
+          { label: "Computer Engineer", y:  1 },
+          { label: "Mechanical Engineer", y: 2.0 },
+          { label: "Civil Engineer", y: 2.0 },
+          { label: "Industrial Engineer", y: 2.0 }
         ]
       },
       {
@@ -548,15 +548,15 @@ let data = {
         color: "#B19CD9",
         type: "column",
         dataPoints: [
-          { label: "Social Scientist", y:  -1 },
+          { label: "Social Scientist", y:  1 },
           { label: "Computer and Information Scientist", y: 415.174575 },
-          { label: "Mathematical Scientist", y: -2 },
-          { label: "Physical Scientist", y: -1 },
-          { label: "Psychologist", y: -2 },
-          { label: "Computer Engineer", y:  -1 },
-          { label: "Mechanical Engineer", y: -2 },
-          { label: "Civil Engineer", y:  -2},
-          { label: "Industrial Engineer", y:  -2}
+          { label: "Mathematical Scientist", y: 2.0 },
+          { label: "Physical Scientist", y: 1 },
+          { label: "Psychologist", y: 2.0 },
+          { label: "Computer Engineer", y:  1 },
+          { label: "Mechanical Engineer", y: 2.0 },
+          { label: "Civil Engineer", y:  2.0},
+          { label: "Industrial Engineer", y:  2.0}
         ]
       }
     ],
