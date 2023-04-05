@@ -13,6 +13,27 @@ p.shifted {
     margin-left: 30px;
 }
 
+#nav_bar{
+  background-color: #7678ed;
+   /* : center; */
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* width: 100%; */
+
+}
+#nav{
+  padding: 20px;
+  text-decoration:none;
+  
+  color: white;
+  text-align: center;
+}
+#nav:hover{
+ background-color: #f7b801;
+}
+
 #backButton {
 	display: none;
 	margin-top: 10px;

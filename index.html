@@ -15,8 +15,16 @@
 <body>
 
     <h1>STEM Employment Statistics by Sex, Race, and Disability Status</h1>
-
-    <div>
+    <div id = "nav_bar">
+        <a id = "nav" href="#motivation">Motivation</a>
+        <a id = "nav" href="#use_case">Use Case</a>
+        <a id = "nav" href="#background">Background</a>
+        <a id = "nav" href="#data">Data</a>
+        <a id = "nav" href="#demo">Demo Video</a>
+        <a id = "nav" href="#visualization">Visualization</a>
+        <a id = "nav" href="#acknowledgements">Acknowledgements</a>
+    </div>
+    <div id = "motivation">
         <h2>Motivation</h2>
         <p class="indented">
 
@@ -50,6 +58,8 @@
              policies that address the under-representation
             of minorities in STEM fields in the United States.
         </p>
+    </div>
+    <div id = "use_case">
         <p>
             <h4>Use Case</h4>
             An example use case for our visualization project is as follows: 
@@ -83,7 +93,7 @@
         </p>
     </div>
 
-    <div>
+    <div id = "background">
         <h2>Background</h2>
         <!-- TODO: Add link to report, demo video, link to data etc. here
          (Add a subsection titled Data. In this section, discuss (at a high-level) what data your
@@ -97,14 +107,14 @@
                 <br>
             </p>
         </div>
-        <div class = 'data_info'>
+        <div id = "data" class = 'data_info'>
             <h3>Data</h3>
             <p class = "indented">
                 <h4>Source</h4>
                 The data used in our visualization is sourced from the National
                 Center for Science and Engineering Statistics(NCSES) report titled
-                ”Women, Minorities, and Persons with Disabilities in Science and
-                Engineering,” which provides comprehensive and detailed data on
+                "Women, Minorities, and Persons with Disabilities in Science and
+                Engineering," which provides comprehensive and detailed data on
                 employment metrics in the STEM field. The report presents data
                 on various demographics, including race/ethnicity, age, gender, and
                 disability status. The employment metrics provided in the report
@@ -114,8 +124,8 @@
                 STEM field by each respective state of the United States. 
             </p>
             <p class = "indented">
-                These data are based on a variety of sources, including the U.S. Census Bureau’s American Community Survey and the Bureau of Labor
-                Statistics’ Current Population Survey. Our visualization combines
+                These data are based on a variety of sources, including the U.S. Census Bureau's American Community Survey and the Bureau of Labor
+                Statistics' Current Population Survey. Our visualization combines
                 various reports and enables users to interact with this data and explore the employment situation in the STEM field for their specific
                 demographic group of interest. Users can filter the data by demographic characteristics, such as race/ethnicity, age, gender, disability
                 status, and state. Overall, the data provided in these reports is a valuable resource for understanding the current employment situation
@@ -173,18 +183,23 @@
         </div>
 
     </div>
-
-    <h2>Visualization Tool </h2>
-    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
-    <br>
-    <div class="tooltip">  *Note 
-        <span class="tooltiptext">Labels without values appear that way due to either data confidentiality reasons or data reliability reasons. 
-            The user can assume there exists a very miniscule population within those demographics.</span>
-      </div>
-    <button id="backButton" style="display:none;">BACK BUTTON</button>
+    <div id = "demo">
+        <h2>Demo Video </h2>
+    </div>
+    <div id = "visualization">
+        <h2>Visualization Tool </h2>
+        <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+        <br>
+        <div class="tooltip">  *Note 
+            <span class="tooltiptext">Labels without values appear that way due to either data confidentiality reasons or data reliability reasons. 
+                The user can assume there exists a very miniscule population within those demographics.</span>
+        </div>
+        <button id="backButton" style="display:none;">BACK BUTTON</button>
+    </div>
     
     
-    <div>
+    
+    <div id = "acknowledgements">
         <h2>Acknowledgements</h2>
         <li><a href="https://jsfiddle.net/canvasjs/1f3Lwr56/">Construct Bar Graph in CanvasJS </a></li>
         <li><a href="https://coder-coder.com/how-to-indent-paragraph-text-in-html-css/">Indentation Guide</a></li>
