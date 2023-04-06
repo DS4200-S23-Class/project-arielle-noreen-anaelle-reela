@@ -42,8 +42,11 @@ p.shifted {
 }
 
 #nav_bar{
+  /* position:fixed; */
+  /* top:0; */
+  /* right:0; */
   background-color: #856cb3;
-  border-radius: 15px;
+  border-radius: 30px;
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -51,16 +54,17 @@ p.shifted {
   /* width: 80%; */
 
 }
-#nav{
+.nav{
   padding: 10px;
   text-decoration:none;
-  
   color: white;
   text-align: center;
 }
-#nav:hover{
+.nav:hover{
  background-color: #B19CD9;
+ border-radius: 30px;
 }
+
 
 #backButton {
 	display: none;
