@@ -13,22 +13,22 @@
 
 
 <body>
-
     <h1>STEM Employment Statistics by Sex, Race, and Disability Status</h1>
     <div id = "nav_bar">
         <a id = "nav" href="#motivation">Motivation</a>
         <a id = "nav" href="#use_case">Use Case</a>
         <a id = "nav" href="#background">Background</a>
         <a id = "nav" href="#data">Data</a>
-        <a id = "nav" href="#demo">Demo Video</a>
         <a id = "nav" href="#visualization">Visualization</a>
         <a id = "nav" href="#acknowledgements">Acknowledgements</a>
+        <!-- lowkey i think we should move the visualization to the top of the page -->
     </div>
-    <div id = "motivation">
-        <h2>Motivation</h2>
+    <div>
+    </div>
+    <div id = "motivation" class = "section">
+        <h2>MOTIVATION</h2>
+        <h4>Introduction</h4>
         <p class="indented">
-
-            <h4>Introduction</h4>
             The under-representation of minorities in STEM-related field is a persistent issue that requires attention and innovative solutions. This
             lack of diversity and inclusion hinders innovation, competitiveness,
             and social equity. Our interactive visualization aims to address
@@ -58,59 +58,51 @@
              policies that address the under-representation
             of minorities in STEM fields in the United States.
         </p>
-    </div>
-    <div id = "use_case">
-        <p>
+        <div id = "use_case">
             <h4>Use Case</h4>
-            An example use case for our visualization project is as follows: 
-            <br>
-            <p class = 'shifted'>
-   
-                A recruiter (she/her) for a tech company in California is looking to improve
-                diversity and inclusion efforts in the company and wants to gain
-                a better understanding of the employment situation for minority
-                groups in the STEM field in California. The recruiter accessing our
-                interactive visualization begins with the first chart. 
-                This chart shows the male/female distribution of people in STEM-related fields within each race/ethnic group.
-                The recruiter is very interested to see that in all the race/ethnic groups, males are far more represented. 
-                She is also interested to see that Native Hawaiian's have quite low employement 
-                counts in the STEM-field comapred to the other race/ethnic groups.
-                She continues to explore, clicking on the "female" bar of the Native-Hawaiian group.
-                The recruiter is brought to another chart, showing employement metrics across different STEM jobs for only Native Hawaiian women.
-                She is excited to see that her field, Social Scientist, is listed as a bar, so she hovers over it, 
-                and is disappointed to see that the representation of 
-                non-disabled individuals is far higher than that of disabled individuals. Upon clicking the bars, she is able to view the proportions of 
-                disabled individuals to non-disabled individuals in the form of a pie chart.
-                She does some comparison between her field and the other fields listed. 
-                Based on the insights gained from the visualization, the recruiter can make informed decisions
-                and advocate for policies that address the under-representation of
-                minority groups, such as Native-Hawaiian disabled women in this example, in her field. 
-                By using the visualization to identify areas where additional resources and support are
-                needed, the recruiter can create policies that will help create a more
-                diverse and inclusive workforce in the STEM field.
+            <p>
+                An example use case for our visualization project is as follows: 
+                <br>
+                <p class = 'shifted'>
+       
+                    A recruiter (she/her) for a tech company in California is looking to improve
+                    diversity and inclusion efforts in the company and wants to gain
+                    a better understanding of the employment situation for minority
+                    groups in the STEM field in California. The recruiter accessing our
+                    interactive visualization begins with the first chart. 
+                    This chart shows the male/female distribution of people in STEM-related fields within each race/ethnic group.
+                    The recruiter is very interested to see that in all the race/ethnic groups, males are far more represented. 
+                    She is also interested to see that Native Hawaiian's have quite low employement 
+                    counts in the STEM-field comapred to the other race/ethnic groups.
+                    She continues to explore, clicking on the "female" bar of the Native-Hawaiian group.
+                    The recruiter is brought to another chart, showing employement metrics across different STEM jobs for only Native Hawaiian women.
+                    She is excited to see that her field, Social Scientist, is listed as a bar, so she hovers over it, 
+                    and is disappointed to see that the representation of 
+                    non-disabled individuals is far higher than that of disabled individuals. Upon clicking the bars, she is able to view the proportions of 
+                    disabled individuals to non-disabled individuals in the form of a pie chart.
+                    She does some comparison between her field and the other fields listed. 
+                    Based on the insights gained from the visualization, the recruiter can make informed decisions
+                    and advocate for policies that address the under-representation of
+                    minority groups, such as Native-Hawaiian disabled women in this example, in her field. 
+                    By using the visualization to identify areas where additional resources and support are
+                    needed, the recruiter can create policies that will help create a more
+                    diverse and inclusive workforce in the STEM field.
+                </p>
+               
             </p>
-           
-        </p>
+        </div>
     </div>
+ 
 
-    <div id = "background">
-        <h2>Background</h2>
+    <div id = "background" class = "section">
+        <h2>BACKGROUND</h2>
         <!-- TODO: Add link to report, demo video, link to data etc. here
          (Add a subsection titled Data. In this section, discuss (at a high-level) what data your
         tool visualizes, Add a link to the raw data.)   -->
-        <p class="indented">
-            <!-- TODO: Link Reports??? I think this section is for Related Works -->
-        </p>
-        <div class = 'demo_vid'>
-            <p class="indented">
-                <!-- For a demonstration of our visualization tool, please watch the video below. -->
-                <br>
-            </p>
-        </div>
         <div id = "data" class = 'data_info'>
             <h3>Data</h3>
-            <p class = "indented">
-                <h4>Source</h4>
+            <h4>Source</h4>
+            <p class = "indented">  
                 The data used in our visualization is sourced from the National
                 Center for Science and Engineering Statistics(NCSES) report titled
                 "Women, Minorities, and Persons with Disabilities in Science and
@@ -150,10 +142,13 @@
                 in their access to these things than there would be in the general
                 population.
             </p>
+            
+            <p class = "indented">
+                The tables used were table 9-5 Employed scientists and engineers, by occupation, highest degree level, and sex: 2019, 9-6 Employed scientists and engineers, by highest degree level, occupation, ethnicity, and race: 2019,
+                and 9-8 Employed scientists and engineers, by occupation, highest degree level, and disability status: 2019.
+            </p>
             The raw data can be found here: <a href = "https://ncses.nsf.gov/pubs/nsf21321/data-tables"> Data Tables</a>
             <br>
-            The tables used were table 9-5 Employed scientists and engineers, by occupation, highest degree level, and sex: 2019, 9-6 Employed scientists and engineers, by highest degree level, occupation, ethnicity, and race: 2019,
-             and 9-8 Employed scientists and engineers, by occupation, highest degree level, and disability status: 2019.
             <h4>Data Cleaning</h4>
             <p class = "indented">
                 Since the raw data was also broken up by various demographics, we had to perform extensive data cleaning
@@ -183,11 +178,9 @@
         </div>
 
     </div>
-    <div id = "demo">
-        <h2>Demo Video </h2>
-    </div>
-    <div id = "visualization">
-        <h2>Visualization Tool </h2>
+    <div id = "visualization" class = "section">
+        <h2>VISUALIZATION</h2>
+        <h3> Visualization Tool</h3>
         <div id="chartContainer" style="height: 370px; width: 100%;"></div>
         <br>
         <div class="tooltip">  *Note 
@@ -195,12 +188,17 @@
                 The user can assume there exists a very miniscule population within those demographics.</span>
         </div>
         <button id="backButton" style="display:none;">BACK BUTTON</button>
+        <h3>Demonstration Video </h3>
+        <p class="indented">
+            For a demonstration of our visualization tool, please watch the video below.
+            <br>
+        </p>
     </div>
     
     
     
-    <div id = "acknowledgements">
-        <h2>Acknowledgements</h2>
+    <div id = "acknowledgements" class = "section">
+        <h2>ACKNOWLEDGEMENTS</h2>
         <li><a href="https://jsfiddle.net/canvasjs/1f3Lwr56/">Construct Bar Graph in CanvasJS </a></li>
         <li><a href="https://coder-coder.com/how-to-indent-paragraph-text-in-html-css/">Indentation Guide</a></li>
         <li><a href="https://sparkbyexamples.com/pandas/pandas-groupby-multiple-columns/"> Group by Multiple Columns</a></li>

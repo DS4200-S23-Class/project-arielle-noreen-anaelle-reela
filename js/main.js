@@ -646,17 +646,20 @@ let data = {
   let chart = new CanvasJS.Chart("chartContainer", {
     //add a title 
     title:{
-      text: "Representation of Various Demographic Groups in STEM Fields"
+      text: "Representation of Various Demographic Groups in STEM Fields",
+      fontFamily: "tahoma",
     },
     //enable animation
     animationEnabled: true,
     // create y axis with label count
     axisY: {
       title: "Count",
+      fontFamily: "tahoma",
     },
     // create x axis with label race/ethnic group by sec
     axisX: {
-      title: "Race/Ethnic Group by Sex"
+      title: "Race/Ethnic Group by Sex",
+      fontFamily: "tahoma",
     },
     //data for chart comes from all the child elements of the parent 'gender' in our data variable
     data: data["Gender"],
@@ -714,12 +717,14 @@ let data = {
       animationEnabled: true,
       // create a y axis titled count
       axisY: {
-        title: "Count"
+        title: "Count",
+      fontFamily: "tahoma",
       },
       // create an x axis titled occupation by disability status
       // + e.dataPoint.drilldown changes title to the race & gender the user selected in the previous chart
       axisX: {
-        title: "Occupation by Disability Status Among " + title
+        title: "Occupation by Disability Status Among " + title,
+        fontFamily: "tahoma",
       },
       // grab data associated with which race and gender user chose from previous graph
       data: data[e.dataPoint.drilldown],
@@ -819,7 +824,8 @@ let data = {
     let piechart = new CanvasJS.Chart("chartContainer",
   {
     title:{
-      text: "Distribution of " + title + " With/Without Disability in " + selectedOccupation
+      text: "Distribution of " + title + " With/Without Disability in " + selectedOccupation,
+      fontFamily: "tahoma",
     },
     legend: {
       maxWidth: 350,
