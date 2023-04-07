@@ -6,6 +6,7 @@ body {
     padding: 60px;
 }
 
+
 h1 {
     text-align: center;
     background-color: #856cb3;
@@ -112,4 +113,13 @@ p.shifted {
   .tooltip:hover .tooltiptext {
     visibility: visible;
     background-color:  #ffb751;
+  }
+
+  #demo{
+    justify-content: center;
+  }
+  #vid{
+    width:550px;
+    height:400px;
+    margin:auto;
   }

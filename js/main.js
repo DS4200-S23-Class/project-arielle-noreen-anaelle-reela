@@ -785,11 +785,11 @@ let data = {
 
    //make an array of the with and without disability values
   // Accessing data points for "Physical Scientist" with disability
-  var occupationwithdisability = null;
-  var racewithdisability = data[race][0]["dataPoints"];
+  let occupationwithdisability = null;
+  let racewithdisability = data[race][0]["dataPoints"];
 
 // Loop through each item in the racewithdisability array
-  for (var i = 0; i < racewithdisability.length; i++) {
+  for (i = 0; i < racewithdisability.length; i++) {
 
     // Check if the "label" property of the current item in the loop is equal to the selectedOccupation variable
     if (racewithdisability[i]["label"] === selectedOccupation) {
@@ -802,12 +802,12 @@ let data = {
 
   // Accessing data points for "Physical Scientist" without disability
   //function is same process as above function
-  var occupationwithoutdisability = null;
+  let occupationwithoutdisability = null;
   
   // note that we are grabbing data[race][1]["dataPoints"] as opposed to data[race][0]["dataPoints"] like above
   //this is because the data for without disability is in the 1st position of data[race]
-  var racewithoutdisability = data[race][1]["dataPoints"];
-  for (var i = 0; i < racewithoutdisability.length; i++) {
+  let racewithoutdisability = data[race][1]["dataPoints"];
+  for (let i = 0; i < racewithoutdisability.length; i++) {
     if (racewithoutdisability[i]["label"] === selectedOccupation) {
       occupationwithoutdisability = racewithoutdisability[i]["y"];
       break;
