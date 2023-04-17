@@ -646,17 +646,20 @@ let data = {
   let chart = new CanvasJS.Chart("chartContainer", {
     //add a title 
     title:{
-      text: "Representation of Various Demographic Groups in STEM Fields"
+      text: "Representation of Various Demographic Groups in STEM Fields",
+      fontFamily: "tahoma",
     },
     //enable animation
     animationEnabled: true,
     // create y axis with label count
     axisY: {
       title: "Count",
+      fontFamily: "tahoma",
     },
     // create x axis with label race/ethnic group by sec
     axisX: {
-      title: "Race/Ethnic Group by Sex"
+      title: "Race/Ethnic Group by Sex",
+      fontFamily: "tahoma",
     },
     //data for chart comes from all the child elements of the parent 'gender' in our data variable
     data: data["Gender"],
@@ -714,12 +717,14 @@ let data = {
       animationEnabled: true,
       // create a y axis titled count
       axisY: {
-        title: "Count"
+        title: "Count",
+      fontFamily: "tahoma",
       },
       // create an x axis titled occupation by disability status
       // + e.dataPoint.drilldown changes title to the race & gender the user selected in the previous chart
       axisX: {
-        title: "Occupation by Disability Status Among " + title
+        title: "Occupation by Disability Status Among " + title,
+        fontFamily: "tahoma",
       },
       // grab data associated with which race and gender user chose from previous graph
       data: data[e.dataPoint.drilldown],
@@ -780,11 +785,11 @@ let data = {
 
    //make an array of the with and without disability values
   // Accessing data points for "Physical Scientist" with disability
-  var occupationwithdisability = null;
-  var racewithdisability = data[race][0]["dataPoints"];
+  let occupationwithdisability = null;
+  let racewithdisability = data[race][0]["dataPoints"];
 
 // Loop through each item in the racewithdisability array
-  for (var i = 0; i < racewithdisability.length; i++) {
+  for (i = 0; i < racewithdisability.length; i++) {
 
     // Check if the "label" property of the current item in the loop is equal to the selectedOccupation variable
     if (racewithdisability[i]["label"] === selectedOccupation) {
@@ -797,12 +802,12 @@ let data = {
 
   // Accessing data points for "Physical Scientist" without disability
   //function is same process as above function
-  var occupationwithoutdisability = null;
+  let occupationwithoutdisability = null;
   
   // note that we are grabbing data[race][1]["dataPoints"] as opposed to data[race][0]["dataPoints"] like above
   //this is because the data for without disability is in the 1st position of data[race]
-  var racewithoutdisability = data[race][1]["dataPoints"];
-  for (var i = 0; i < racewithoutdisability.length; i++) {
+  let racewithoutdisability = data[race][1]["dataPoints"];
+  for (let i = 0; i < racewithoutdisability.length; i++) {
     if (racewithoutdisability[i]["label"] === selectedOccupation) {
       occupationwithoutdisability = racewithoutdisability[i]["y"];
       break;
@@ -819,7 +824,8 @@ let data = {
     let piechart = new CanvasJS.Chart("chartContainer",
   {
     title:{
-      text: "Distribution of " + title + " With/Without Disability in " + selectedOccupation
+      text: "Distribution of " + title + " With/Without Disability in " + selectedOccupation,
+      fontFamily: "tahoma",
     },
     legend: {
       maxWidth: 350,
