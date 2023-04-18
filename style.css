@@ -24,6 +24,11 @@ h2{
   
 }
 
+video {
+  height: auto;
+  width: 100%;
+}
+
 
 p.indented {
     text-indent: 30px;
@@ -115,11 +120,4 @@ p.shifted {
     background-color:  #ffb751;
   }
 
-  #demo{
-    justify-content: center;
-  }
-  #vid{
-    width:550px;
-    height:400px;
-    margin:auto;
-  }
+
